@@ -1,0 +1,5 @@
+_fontes/
+_scripts/__pycache__/
+*.tmp
+Thumbs.db
+desktop.ini

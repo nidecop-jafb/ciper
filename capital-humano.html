@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Banco de Capital Humano — CIPER</title>
+<meta name="description" content="Mapa de professores, pesquisadores e servidores de Ouro Preto com afinidade com os eixos do CIPER.">
+<meta name="theme-color" content="#0E3B2E">
+<link rel="icon" href="assets/icone/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="assets/icone/ciper-icone.svg">
+<link rel="apple-touch-icon" href="assets/icone/ciper-icone-180.png">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+
+<header class="topo">
+  <div class="wrap">
+    <a class="marca" href="index.html"><img src="assets/icone/ciper-icone.svg" alt="">CIPER</a>
+    <button id="abre-menu" aria-controls="menu" aria-expanded="false">Menu</button>
+    <nav class="menu" id="menu" aria-label="Seções">
+      <a href="index.html">Início</a>
+      <a href="#banco" class="ativo">Banco</a>
+      <a href="#grupos">Grupos de pesquisa</a>
+      <a href="#metodo">Como foi montado</a>
+      <a class="cta" href="#adesao">Quero participar</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<div class="cabeca-banco">
+  <div class="wrap">
+    <p class="olho" style="color:var(--ouro2)">Capital humano e massa crítica</p>
+    <h1>Banco de Capital Humano de Ouro Preto</h1>
+    <p class="lead" style="color:#CFE0D6">Professores, pesquisadores e servidores técnicos que já estão em Ouro Preto e podem compor a massa crítica do CIPER. Busque por nome, área, unidade ou eixo de atuação.</p>
+    <div class="numeros" id="contadores"></div>
+  </div>
+</div>
+
+<div class="filtros" id="banco">
+  <div class="wrap">
+    <div class="linha1">
+      <input type="search" id="q" placeholder="Buscar por nome, área, laboratório…" aria-label="Buscar">
+      <select id="f-inst" aria-label="Instituição"><option value="">Instituição (todas)</option></select>
+      <select id="f-setor" aria-label="Unidade ou programa"><option value="">Unidade (todas)</option></select>
+      <select id="f-cat" aria-label="Categoria"><option value="">Categoria (todas)</option></select>
+      <select id="f-eixo" aria-label="Eixo do CIPER"><option value="">Eixo do CIPER (todos)</option></select>
+    </div>
+    <div class="linha2">
+      <label><input type="checkbox" id="f-lattes"> com Currículo Lattes</label>
+      <label><input type="checkbox" id="f-adesao"> com adesão registrada</label>
+      <span id="total" style="margin-left:auto;font-weight:700"></span>
+      <button class="mini" id="limpar">Limpar filtros</button>
+      <button class="mini" id="exportar">Baixar esta lista (.csv)</button>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div id="lista" aria-live="polite"></div>
+  <div class="pag"><button id="ant">← Anterior</button><span id="pagina"></span><button id="prox">Próxima →</button></div>
+</div>
+
+<section class="alt" id="panorama">
+  <div class="wrap grade g2">
+    <div class="cartao"><h3>Pessoas por unidade ou programa</h3><div class="barras" id="b-setor"></div></div>
+    <div class="cartao"><h3>Afinidade das unidades com os eixos do CIPER</h3><div class="barras" id="b-eixo"></div>
+      <p style="font-size:.86rem;color:var(--tinta2);margin-top:12px">Afinidade é uma sugestão por unidade (por exemplo, materiais e minerais críticos → P4). O eixo de cada pessoa só vale quando ela mesma declara, no formulário de adesão.</p></div>
+  </div>
+</section>
+
+<section id="grupos">
+  <div class="wrap">
+    <p class="olho">IFMG — Campus Ouro Preto</p>
+    <h2>Grupos de pesquisa certificados</h2>
+    <div class="grade g3" id="lista-grupos" style="margin-top:22px"></div>
+  </div>
+</section>
+
+<section class="alt" id="metodo">
+  <div class="wrap">
+    <p class="olho">Transparência</p>
+    <h2>Como este banco foi montado</h2>
+    <div class="grade g3" style="margin-top:22px">
+      <div class="cartao"><h3>1 · Dados públicos</h3><p>A primeira carga vem das páginas oficiais das unidades da UFOP e do IFMG-OP (listas de docentes, técnicos, programas de pós-graduação e grupos de pesquisa), coletadas em 9 de novembro de 2026. Cada registro traz o endereço da página de origem.</p></div>
+      <div class="cartao"><h3>2 · Adesão de cada pessoa</h3><p>Eixos de atuação (P1–P7, E1–E4, X1–X4), interesse em orientar iniciação científica e anuência ao Manual de Governança só entram quando a própria pessoa preenche o formulário — como prevê o Dossiê Executivo (item 4.2).</p></div>
+      <div class="cartao"><h3>3 · O que não está aqui</h3><p>O banco não guarda e-mail, telefone nem dado pessoal além do que a instituição publica: o contato é feito pela página oficial. Quem quiser corrigir ou retirar o seu registro pode pedir à organização técnica.</p></div>
+    </div>
+    <h3 style="margin-top:30px">Cobertura atual e próximas cargas</h3>
+    <div class="tab-rol">
+      <table>
+        <thead><tr><th>Instituição</th><th>Já no banco</th><th>A incluir</th></tr></thead>
+        <tbody>
+          <tr><td><strong>UFOP</strong></td><td>Escola de Minas: DEMIN, DEGEO, DEAMB, DECAT, DECIV, DEPRO · ICEB: DEBIO, DEMAT · Pós-graduação: REDEMAT, ProAmb</td><td>DEMET, DEMEC, DEARQ, DEFIS, DEQUI, DECOM, Escola de Farmácia e demais programas de pós-graduação</td></tr>
+          <tr><td><strong>IFMG</strong></td><td>Líderes dos 10 grupos de pesquisa e equipe da Diretoria de Pesquisa, Inovação e Pós-graduação</td><td>Corpo docente completo do Campus Ouro Preto (a lista oficial estava fora do ar na data da coleta) e técnicos de laboratório</td></tr>
+          <tr><td><strong>Fundação Gorceix</strong></td><td>—</td><td>Pesquisadores e equipe técnica indicados pela Fundação</td></tr>
+          <tr><td><strong>PMOP</strong></td><td>—</td><td>Equipes de educação, meio ambiente, turismo e desenvolvimento econômico indicadas pela Prefeitura</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:14px"><a href="dados/capital-humano.csv" download>Baixar o banco completo (.csv)</a> · <a href="dados/capital-humano.json" download>.json</a></p>
+  </div>
+</section>
+
+<section id="adesao">
+  <div class="wrap">
+    <p class="olho">Mapeamento de pesquisadores e competências</p>
+    <h2>Quero participar do CIPER</h2>
+    <p class="lead">Preencha a ficha, baixe o arquivo e envie à organização técnica do CIPER. Leva cerca de três minutos.</p>
+    <form class="form" id="ficha" style="margin-top:22px">
+      <fieldset><legend>1 · Identificação e perfil acadêmico</legend>
+        <div class="grade g2">
+          <div class="campo"><label for="a-nome">Nome completo</label><input type="text" id="a-nome" required list="nomes"><datalist id="nomes"></datalist></div>
+          <div class="campo"><label for="a-cit">Nome em citações bibliográficas</label><input type="text" id="a-cit"></div>
+          <div class="campo"><label for="a-lattes">Endereço do Currículo Lattes</label><input type="url" id="a-lattes" placeholder="https://lattes.cnpq.br/…"></div>
+          <div class="campo"><label for="a-inst">Vínculo institucional</label>
+            <select id="a-inst" required><option value="">Escolha…</option><option>UFOP</option><option>IFMG</option><option>Fundação Gorceix</option><option>PMOP</option><option>Colaborador externo</option><option>Parceiro estratégico</option></select></div>
+          <div class="campo"><label for="a-setor">Departamento, setor ou laboratório</label><input type="text" id="a-setor"></div>
+          <div class="campo"><label for="a-cat">Categoria</label>
+            <select id="a-cat"><option>Docente</option><option>Pesquisador</option><option>Técnico-administrativo</option><option>Gestão</option></select></div>
+        </div>
+        <div class="campo"><label for="a-areas">Principais competências (experiências ligadas a energia e sustentabilidade)</label><textarea id="a-areas" rows="3"></textarea></div>
+      </fieldset>
+      <fieldset><legend>2 · Onde você pode atuar</legend>
+        <p style="font-size:.92rem;color:var(--tinta2)">Marque só as frentes em que tem experiência ou interesse direto.</p>
+        <div class="checks" id="a-eixos"></div>
+      </fieldset>
+      <fieldset><legend>3 · Disponibilidade e anuência</legend>
+        <div class="campo"><label for="a-ic">Tem interesse em orientar estudantes de iniciação científica pelo CIPER?</label>
+          <select id="a-ic"><option>Sim</option><option>Não</option></select></div>
+        <label style="font-weight:400;display:flex;gap:8px;align-items:flex-start"><input type="checkbox" id="a-ciente" required> Declaro estar ciente e de acordo com as diretrizes do Manual de Governança e do Código de Ética do CIPER para colaboração em projetos de P&amp;D, e autorizo a inclusão destes dados no Banco de Capital Humano.</label>
+      </fieldset>
+      <div class="botoes" style="margin-top:0"><button class="btn verde" type="submit">Baixar minha ficha de adesão</button></div>
+      <p id="a-ok" class="aviso" style="display:none;margin-top:16px">Ficha baixada. Envie o arquivo à organização técnica do CIPER — ele será incluído na próxima atualização do banco.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong style="color:#fff">CIPER — Centro de Inovação e Pesquisa de Energias Renováveis de Ouro Preto.</strong> IFMG · UFOP · Fundação Gorceix · PMOP.</p>
+    <p class="fim">Dados de fontes públicas institucionais. Estar no banco indica vínculo com a unidade, não adesão ao CIPER: a adesão é sempre declarada pela própria pessoa.</p>
+  </div>
+</footer>
+
+<script src="dados/capital-humano.js"></script>
+<script src="assets/js/banco.js"></script>
+</body>
+</html>
