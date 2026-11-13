@@ -44,23 +44,29 @@ section{padding:72px 0}
 }
 
 /* herói */
-.heroi{position:relative;min-height:86vh;display:flex;align-items:flex-end;color:#fff;background:#10201a url(../img/ouro-preto-amanhecer.jpg) center/cover no-repeat;padding:0}
-.heroi::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,24,18,.25) 0%,rgba(8,24,18,.45) 45%,rgba(8,24,18,.92) 100%)}
-.heroi .wrap{position:relative;padding-top:120px;padding-bottom:56px;width:100%}
+.heroi{position:relative;min-height:86vh;display:flex;align-items:flex-end;color:#fff;background:#10201a;padding:0;overflow:hidden}
+.heroi::before{content:"";position:absolute;inset:0;background:url(../img/ouro-preto-amanhecer.jpg) center/cover no-repeat;filter:brightness(1.18) contrast(1.04) saturate(1.08)}
+.heroi::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,24,18,0) 0%,rgba(8,24,18,.08) 40%,rgba(8,24,18,.55) 72%,rgba(8,24,18,.8) 100%)}
+.heroi h1,.heroi .sub,.heroi .olho{text-shadow:0 2px 14px rgba(0,0,0,.45)}
+.heroi .wrap{position:relative;z-index:1;padding-top:120px;padding-bottom:56px;width:100%}
 .heroi h1{color:#fff;font-size:clamp(2.2rem,6vw,4.4rem);max-width:16ch;margin-bottom:.35em}
 .heroi .sub{font-size:clamp(1.05rem,2vw,1.35rem);max-width:60ch;color:#E8EFE9}
 .heroi .olho{color:var(--ouro2)}
 .botoes{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
-.btn{display:inline-block;padding:13px 20px;border-radius:10px;font-weight:700;text-decoration:none;border:2px solid transparent;cursor:pointer;font:700 1rem var(--sans)}
+.btn{display:inline-flex;align-items:center;gap:9px;padding:13px 20px;border-radius:10px;font-weight:700;text-decoration:none;border:2px solid transparent;cursor:pointer;font:700 1rem var(--sans)}
 .btn.ouro{background:var(--ouro);color:#1d1503}
 .btn.ouro:hover{background:var(--ouro2)}
-.btn.linha{border-color:rgba(255,255,255,.7);color:#fff}
-.btn.linha:hover{background:rgba(255,255,255,.12)}
+.btn.linha{border-color:rgba(255,255,255,.75);color:#fff;background:rgba(8,24,18,.28);backdrop-filter:blur(3px)}
+.btn.linha:hover{background:rgba(255,255,255,.16)}
+.btn .ico{flex:0 0 auto;width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .btn.verde{background:var(--verde);color:#fff}
 .btn.verde:hover{background:var(--verde2)}
 .btn.claro{background:var(--branco);color:var(--verde);border-color:var(--linha)}
-.alianca-faixa{display:flex;gap:10px;flex-wrap:wrap;margin-top:34px;font-size:.9rem}
-.alianca-faixa span{border:1px solid rgba(255,255,255,.4);border-radius:999px;padding:6px 14px;background:rgba(0,0,0,.25)}
+.alianca-faixa{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:34px;font-size:.88rem;line-height:1.3}
+.alianca-faixa span{display:flex;align-items:center;gap:10px;border:1px solid rgba(255,255,255,.35);border-radius:12px;padding:8px 12px;background:rgba(8,24,18,.45);backdrop-filter:blur(3px)}
+.alianca-faixa b{flex:0 0 52px;text-align:center;font:800 .8rem/1 var(--sans);letter-spacing:.08em;color:#1d1503;background:var(--ouro2);border-radius:6px;padding:6px 0}
+@media (max-width:900px){.alianca-faixa{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:480px){.alianca-faixa{grid-template-columns:1fr}}
 
 /* grades e cartões */
 .grade{display:grid;gap:20px}
@@ -70,7 +76,7 @@ section{padding:72px 0}
 .cartao{background:var(--branco);border:1px solid var(--linha);border-radius:14px;padding:22px;box-shadow:0 1px 0 rgba(0,0,0,.02)}
 .cartao h3{margin-bottom:.35em}
 .cartao p:last-child{margin-bottom:0}
-.cartao .sigla{display:inline-block;font:800 .8rem/1 var(--sans);letter-spacing:.08em;color:#fff;background:var(--verde);border-radius:6px;padding:6px 9px;margin-bottom:12px}
+.cartao .sigla{display:inline-block;font:800 .8rem/1 var(--sans);letter-spacing:.08em;color:#fff;background:var(--verde);border-radius:6px;padding:6px 0;min-width:52px;text-align:center;margin-bottom:12px}
 .cartao.dest{border-top:5px solid var(--ouro)}
 .escuro .cartao{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.16);color:#E6EFE9}
 .escuro .cartao h3{color:#fff}
