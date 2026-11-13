@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """Icone oficial do CIPER: SVG (fonte) + PNG/ICO derivados.
 Geometria: a marca do video institucional (arco + tres pontos), redesenhada em vetor.
-Arco = quarto de circulo que sobe (do ouro a energia); tres pontos = Pesquisa, Ensino e Extensao.
+Arco = quarto de circulo que sobe (do ouro a energia); quatro pontos = as instituicoes da alianca
+(de baixo para cima: IFMG, UFOP, FG, PMOP). Versao de 3 pontos arquivada em assets/icone/xx/.
 Uso: python _scripts/gerar_icone.py
 """
 import math
@@ -12,7 +13,7 @@ OUT = Path(__file__).resolve().parent.parent / "assets" / "icone"
 VERDE, VERDE2, OURO, OURO2, BRANCO = "#0E3B2E", "#17614A", "#F4C95D", "#DE9B1E", "#FFFFFF"
 CX, CY, R, ESP = 412.9, 357.1, 201.5, 46.5          # centro, raio e espessura do arco (tela 512)
 RD = 297.6                                           # raio da orbita dos pontos
-PONTOS = [(180, 20.5), (202, 17.0), (223, 15.5)]     # (angulo em graus, raio do ponto)
+PONTOS = [(180 + i * 43 / 3, 17.0) for i in range(4)]  # 4 pontos iguais, espacados de 180 a 223 graus
 
 def pt(ang, r):
     a = math.radians(ang)
