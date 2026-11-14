@@ -6,6 +6,7 @@ Site estático (abre com dois cliques em `index.html`; não precisa de servidor)
 |---|---|
 | `index.html` | Página institucional: o CIPER, aliança, pilares, projeto, vídeo, governança, roteiro, reuniões, documentos |
 | `capital-humano.html` | Banco de Capital Humano: busca, filtros, exportação e ficha de adesão |
+| `investimentos.html` | Apresentação para investidores (4 blocos + resumo em inglês) e falas sobre investimento com link no tempo (fonte: `PRJ-001G-CIPER-Mensagens/`) |
 | `assets/icone/` | Ícone oficial (SVG, PNG 32–1024, `favicon.ico`) e logotipos horizontais |
 | `assets/video/` | Vídeo institucional em 720p (PT e EN) |
 | `dados/capital-humano.csv` | O banco em planilha (abre no Excel) |
