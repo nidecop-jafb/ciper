@@ -7,12 +7,19 @@ Site estático (abre com dois cliques em `index.html`; não precisa de servidor)
 | `index.html` | Página institucional: o CIPER, aliança, pilares, projeto, vídeo, governança, roteiro, reuniões, documentos |
 | `capital-humano.html` | Banco de Capital Humano: busca, filtros, exportação e ficha de adesão |
 | `investimentos.html` | Apresentação para investidores (4 blocos + resumo em inglês) e falas sobre investimento com link no tempo (fonte: `PRJ-001G-CIPER-Mensagens/`) |
+| `redes.html` | Redes do CIPER: QR Codes (Instagram, Facebook, Site), botões e guia para pôr o ícone na tela do celular. **Gerada** por `_scripts/gerar_redes.py` |
+| `r/{rede}/` | Mini-página instalável de cada rede (manifesto, service worker sem cache, ícones com selo). O ícone instalado abre o perfil. **Gerada** |
+| `assets/qr/` | QR Codes em PNG (1024 px) e SVG. Apontam para o site (`r/{rede}/`), não para a rede: o impresso continua valendo se a rede mudar |
 | `assets/icone/` | Ícone oficial (SVG, PNG 32–1024, `favicon.ico`) e logotipos horizontais |
 | `assets/video/` | Vídeo institucional em 720p (PT e EN) |
 | `dados/capital-humano.csv` | O banco em planilha (abre no Excel) |
 | `dados/adesoes.csv` | Fichas de adesão recebidas — uma linha por pessoa |
 | `_fontes/` | Cópia das páginas públicas usadas na coleta (09/11/2026) |
-| `_scripts/` | `gerar_banco.py` (monta o banco) e `gerar_icone.py` (redesenha o ícone) |
+| `_scripts/` | `gerar_banco.py` (monta o banco), `gerar_icone.py` (redesenha o ícone), `gerar_redes.py` (redes, QRs, prancha A4) e `conferir_redes.py` (lê os QRs e confere manifestos) |
+
+## Ligar uma rede nova (LinkedIn, X, WhatsApp)
+
+Em `_scripts/gerar_redes.py`, na lista `REDES`, preencha `perfil` e troque `ativa` para `True`. Depois rode `python _scripts\gerar_redes.py` e `python _scripts\conferir_redes.py`. A página Redes, os rodapés (entre `<!-- REDES:INICIO -->` e `<!-- REDES:FIM -->`), os QRs e a prancha A4 (`PRJ-001E-CIPER-Redes-Sociais/qrcodes/`) saem juntos.
 
 ## Atualizar o banco
 

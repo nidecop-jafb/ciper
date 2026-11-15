@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CIPER · Facebook</title>
+<meta name="description" content="Abra o Facebook do CIPER ou ponha o ícone CIPER · Facebook na tela do celular.">
+<meta name="theme-color" content="#0E3B2E">
+<link rel="icon" type="image/png" href="icone-192.png">
+<link rel="apple-touch-icon" href="icone-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="CIPER Face">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="../../assets/css/site.css">
+</head>
+<body>
+<!-- Gerado por _scripts/gerar_redes.py: edite o script, não esta página. -->
+<header class="topo">
+  <div class="wrap">
+    <a class="marca" href="../../index.html"><img src="../../assets/icone/ciper-icone.svg" alt="">CIPER</a>
+    <a class="rp-volta" href="../../redes.html">Todas as redes</a>
+  </div>
+</header>
+
+<main class="rede-pagina">
+  <img class="rp-ico" src="icone-512.png" width="120" height="120" alt="Ícone CIPER · Facebook">
+  <p class="olho">Redes do CIPER</p>
+  <h1>CIPER · Facebook</h1>
+  <p class="lead">CIPER Ouro Preto</p>
+  <p class="aviso" id="abrindo" hidden>Abrindo o Facebook do CIPER…</p>
+  <a class="btn verde" id="abrir" href="https://www.facebook.com/ciper.ouropreto" rel="noopener">Abrir o Facebook do CIPER</a>
+  <button class="btn claro" id="instalar" type="button" hidden>Instalar o ícone na tela do celular</button>
+  <div class="cartao guia">
+    <h3>Para pôr o ícone na tela do celular</h3>
+    <p><b>Android (Chrome):</b> toque em “Instalar o ícone” acima ou, no menu ⋮ do Chrome, em “Instalar app” ou “Adicionar à tela inicial”.</p>
+    <p><b>iPhone (Safari):</b> toque em Compartilhar e depois em “Adicionar à Tela de Início”.</p>
+    <p>O ícone “CIPER Face” abre o Facebook do CIPER com um toque. Nada é instalado sem a sua confirmação.</p>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="nota-ia"><strong>Transparência sobre IA:</strong> textos, imagens, áudios e vídeos, quando elaborados com auxílio de inteligência artificial (IA), são revisados, conferidos e aprovados pelo(s) autor(es). A responsabilidade é humana.</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var perfil = "https://www.facebook.com/ciper.ouropreto", intent = "intent://www.facebook.com/ciper.ouropreto#Intent;scheme=https;package=com.facebook.katana;S.browser_fallback_url=https%3A%2F%2Fwww.facebook.com%2Fciper.ouropreto;end";
+  var abrir = document.getElementById('abrir'), instalar = document.getElementById('instalar');
+  if (/Android/i.test(navigator.userAgent)) abrir.href = intent;
+  var app = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
+  if (app || /[?&]abrir=1/.test(location.search)) {
+    document.getElementById('abrindo').hidden = false;
+    location.replace(perfil);
+  }
+  var adiado = null;
+  window.addEventListener('beforeinstallprompt', function (e) { e.preventDefault(); adiado = e; instalar.hidden = false; });
+  instalar.addEventListener('click', function () {
+    if (!adiado) return;
+    adiado.prompt();
+    adiado.userChoice.then(function () { adiado = null; instalar.hidden = true; });
+  });
+  window.addEventListener('appinstalled', function () { instalar.hidden = true; });
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(function () {});
+})();
+</script>
+</body>
+</html>
