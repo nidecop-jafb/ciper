@@ -44,6 +44,16 @@ section{padding:72px 0}
   .menu{display:none;position:absolute;left:0;right:0;top:64px;background:var(--papel);border-bottom:1px solid var(--linha);padding:10px 20px 16px;flex-direction:column}
   .menu.aberto{display:flex}
 }
+/* redes no topo (gerado por _scripts/gerar_redes.py): no PC, depois do menu; no celular, antes do botão Menu */
+.redes-topo{display:flex;flex:0 0 auto;margin-left:-12px}
+.redes-topo a{display:inline-flex;align-items:center;justify-content:center;width:32px;height:40px;border-radius:8px;color:var(--verde)}
+.redes-topo a:hover{background:var(--papel2)}
+.redes-topo svg{width:20px;height:20px}
+@media (max-width:1200px){
+  .redes-topo{order:1;margin-left:auto;gap:2px}
+  .redes-topo a{width:40px}
+  #abre-menu{order:2;margin-left:0}
+}
 
 /* herói */
 .heroi{position:relative;min-height:86vh;display:flex;align-items:flex-end;color:#fff;background:#10201a;padding:0;overflow:hidden}

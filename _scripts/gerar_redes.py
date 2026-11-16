@@ -231,6 +231,32 @@ def aplica_rodape(pagina: Path):
         pagina.write_text(novo, encoding="utf-8", newline="\n")
 
 
+def bloco_topo() -> str:
+    """Ícones das redes no cabeçalho fixo (PRE-site-ciper-redes-no-topo-2026-11-16).
+    Fica fora do <nav>: aparece com o menu aberto (PC) e recolhido (celular)."""
+    links = [f'<a href="{r["perfil"]}" target="_blank" rel="noopener" title="{r["nome"]}" '
+             f'aria-label="{r["nome"]} do CIPER (abre em nova aba)">{GLIFOS.get(r["chave"], GLIFO_GENERICO)}</a>'
+             for r in ATIVAS]
+    return ("<!-- REDES-TOPO:INICIO (gerado por _scripts/gerar_redes.py) -->\n"
+            f'    <div class="redes-topo">{"".join(links)}</div>\n'
+            "    <!-- REDES-TOPO:FIM -->")
+
+
+def aplica_topo(pagina: Path):
+    """Troca o item de texto "Redes" do menu pelos ícones no cabeçalho."""
+    txt = pagina.read_text(encoding="utf-8")
+    bloco = bloco_topo()
+    novo = re.sub(r'\n[ \t]*<a href="redes\.html">Redes</a>', "", txt)
+    if "<!-- REDES-TOPO:INICIO" in novo:
+        novo = re.sub(r"<!-- REDES-TOPO:INICIO.*?<!-- REDES-TOPO:FIM -->", lambda _: bloco, novo, flags=re.S)
+    else:
+        i = novo.index('<header class="topo">')
+        j = novo.index("</nav>", i) + len("</nav>")
+        novo = novo[:j] + "\n    " + bloco + novo[j:]
+    if novo != txt:
+        pagina.write_text(novo, encoding="utf-8", newline="\n")
+
+
 def intent(r: dict) -> str:
     sem = r["perfil"].split("://", 1)[1]
     volta = r["perfil"].replace(":", "%3A").replace("/", "%2F")
@@ -396,12 +422,12 @@ def pagina_redes(itens) -> str:
     <button id="abre-menu" aria-controls="menu" aria-expanded="false">Menu</button>
     <nav class="menu" id="menu" aria-label="Seções">
       <a href="index.html">Início</a>
-      <a class="ativo" href="redes.html" aria-current="page">Redes</a>
       <a href="#instalar">Como instalar</a>
       <a href="#baixar">QR Codes para imprimir</a>
       <a class="cta" href="capital-humano.html">Capital humano</a>
       <a class="cta2" href="investimentos.html">Investimentos</a>
     </nav>
+    {bloco_topo()}
   </div>
 </header>
 
@@ -565,7 +591,8 @@ def main():
     (SITE / "redes.html").write_text(pagina_redes(itens), encoding="utf-8", newline="\n")
     for nome in ("index.html", "capital-humano.html", "investimentos.html"):
         aplica_rodape(SITE / nome)
-    print("  redes.html e rodapés das 3 páginas")
+        aplica_topo(SITE / nome)
+    print("  redes.html, rodapés e ícones do topo das 3 páginas")
 
     if not sem_pdf:
         h = SAIDA_E / "CIPER-QR-redes-A4-v1.html"
