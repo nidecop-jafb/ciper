@@ -21,7 +21,7 @@ Site estático (abre com dois cliques em `index.html`; não precisa de servidor)
 
 ## Ligar uma rede nova (LinkedIn, X, WhatsApp)
 
-Em `_scripts/gerar_redes.py`, na lista `REDES`, preencha `perfil` e troque `ativa` para `True`. Depois rode `python _scripts\gerar_redes.py` e `python _scripts\conferir_redes.py`. A página Redes, os rodapés (entre `<!-- REDES:INICIO -->` e `<!-- REDES:FIM -->`), os QRs e a prancha A4 (`PRJ-001E-CIPER-Redes-Sociais/qrcodes/`) saem juntos.
+Em `_scripts/gerar_redes.py`, na lista `REDES`, preencha `perfil` e troque `ativa` para `True`. Depois rode `python _scripts\gerar_redes.py` e `python _scripts\conferir_redes.py`. A página Redes, os rodapés (entre `<!-- REDES:INICIO -->` e `<!-- REDES:FIM -->`), os ícones do topo (entre `<!-- REDES-TOPO:INICIO -->` e `<!-- REDES-TOPO:FIM -->`, no lugar do antigo item "Redes" do menu), os QRs e a prancha A4 (`PRJ-001E-CIPER-Redes-Sociais/qrcodes/`) saem juntos.
 
 ## Atualizar o banco
 
