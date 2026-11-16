@@ -10,12 +10,14 @@ Site estático (abre com dois cliques em `index.html`; não precisa de servidor)
 | `redes.html` | Redes do CIPER: QR Codes (Instagram, Facebook, Site), botões e guia para pôr o ícone na tela do celular. **Gerada** por `_scripts/gerar_redes.py` |
 | `r/{rede}/` | Mini-página instalável de cada rede (manifesto, service worker sem cache, ícones com selo). O ícone instalado abre o perfil. **Gerada** |
 | `assets/qr/` | QR Codes em PNG (1024 px) e SVG. Apontam para o site (`r/{rede}/`), não para a rede: o impresso continua valendo se a rede mudar |
+| `documentos/` | PDFs de "Para ler com calma". `01`–`04` são cópias dos v2 de `PRJ-001A-CIPER-Concepção/` (00, 07, 01, 04); os anteriores estão em `G:\CIPER\xx\2026-11-16_site-docs-v2\` |
+| `assets/docs/` | Capas (miniatura da 1ª página) dos cartões de documentos. **Geradas** por `_scripts/gerar_capas_docs.py` |
 | `assets/icone/` | Ícone oficial (SVG, PNG 32–1024, `favicon.ico`) e logotipos horizontais |
 | `assets/video/` | Vídeo institucional em 720p (PT e EN) |
 | `dados/capital-humano.csv` | O banco em planilha (abre no Excel) |
 | `dados/adesoes.csv` | Fichas de adesão recebidas — uma linha por pessoa |
 | `_fontes/` | Cópia das páginas públicas usadas na coleta (09/11/2026) |
-| `_scripts/` | `gerar_banco.py` (monta o banco), `gerar_icone.py` (redesenha o ícone), `gerar_redes.py` (redes, QRs, prancha A4) e `conferir_redes.py` (lê os QRs e confere manifestos) |
+| `_scripts/` | `gerar_banco.py` (monta o banco), `gerar_icone.py` (redesenha o ícone), `gerar_redes.py` (redes, QRs, prancha A4), `conferir_redes.py` (lê os QRs e confere manifestos) e `gerar_capas_docs.py` (capas dos documentos) |
 
 ## Ligar uma rede nova (LinkedIn, X, WhatsApp)
 
