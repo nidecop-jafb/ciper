@@ -10,8 +10,8 @@ Site estático (abre com dois cliques em `index.html`; não precisa de servidor)
 | `redes.html` | Redes do CIPER: QR Codes (Instagram, Facebook, Site), botões e guia para pôr o ícone na tela do celular. **Gerada** por `_scripts/gerar_redes.py` |
 | `r/{rede}/` | Mini-página instalável de cada rede (manifesto, service worker sem cache, ícones com selo). O ícone instalado abre o perfil. **Gerada** |
 | `assets/qr/` | QR Codes em PNG (1024 px) e SVG. Apontam para o site (`r/{rede}/`), não para a rede: o impresso continua valendo se a rede mudar |
-| `documentos/` | PDFs de "Para ler com calma". `01`–`04` são cópias dos v2 de `PRJ-001A-CIPER-Concepção/` (00, 07, 01, 04); os anteriores estão em `G:\CIPER\xx\2026-11-16_site-docs-v2\` |
-| `assets/docs/` | Capas (miniatura da 1ª página) dos cartões de documentos. **Geradas** por `_scripts/gerar_capas_docs.py` |
+| `documentos/` | PDFs de "Para ler com calma". `01`–`04` e `06` são cópias dos v2 de `PRJ-001A-CIPER-Concepção/` (00, 07, 01, 04, 12); os anteriores estão em `G:\CIPER\xx\2026-11-16_site-docs-v2\` e `…\2026-11-16_site-capas-doc6\` |
+| `assets/docs/` | Fotos das capas dos cartões de documentos (`foto-01…06.webp`, recortes de `assets/img/`). A capa é montada em HTML/CSS (foto + faixa verde com número e título curto). **Geradas** por `_scripts/gerar_capas_docs.py` (a lista `FOTOS` diz qual foto vai em cada cartão) |
 | `assets/icone/` | Ícone oficial (SVG, PNG 32–1024, `favicon.ico`) e logotipos horizontais |
 | `assets/video/` | Vídeo institucional em 720p (PT e EN) |
 | `dados/capital-humano.csv` | O banco em planilha (abre no Excel) |
