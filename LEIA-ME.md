@@ -41,7 +41,14 @@ A pasta inteira pode ir para o GitHub Pages como está. Antes de publicar, **tir
 
 ## Pendências conhecidas
 
-- **IFMG**: a lista oficial de docentes (`integra.ouropreto.ifmg.edu.br`) estava fora do ar na coleta; entraram só os líderes de grupos de pesquisa e a equipe da DPIPG.
+- **IFMG**: a lista oficial de docentes (`integra.ouropreto.ifmg.edu.br`) segue fora do ar (09 e 17/11/2026). Em 17/11 entraram os servidores dos 10 grupos (espelhos CNPq em `_fontes/cnpq/`) e dos projetos do campus no SUAP (2023–2026). Faltam docentes e técnicos sem grupo nem projeto registrado.
+
+## IFMG-OP: CNPq e SUAP (17/11/2026)
+
+- `_fontes/cnpq/grupo_{id}.html`: espelho de cada grupo (`dgp.cnpq.br/dgp/espelhogrupo/{id}`). Lê pesquisadores e técnicos; estudantes e egressos são ignorados.
+- `_fontes/suap_lotacao_op.csv` (`nome;categoria;cargo`): servidores confirmados no SUAP como lotados no Campus Ouro Preto. **Só quem está aqui entra no banco**, venha do CNPq ou do SUAP.
+- `_fontes/suap_projetos_op.csv` (`nome;papel;projeto;tipo;edital;ano`): servidores de projetos do campus nos resultados de editais do SUAP. Nunca alunos, matrícula, e-mail ou telefone.
+- Os três ficam fora do ar e do git (`_fontes/` está no `.gitignore`). Para refazer: baixar os espelhos de novo, refazer os dois `.csv` pelo conector `suap-ifmg` e rodar `gerar_banco.py`.
 - **UFOP**: faltam DEMET, DEMEC, DEARQ, DEFIS, DEQUI, DECOM e Escola de Farmácia (páginas fora do ar ou sem lista).
 - **Fundação Gorceix e PMOP**: sem lista pública; dependem de indicação das instituições.
 - Datas das reuniões 1, 3, 5 e 6 vêm das datas dos arquivos — conferir.

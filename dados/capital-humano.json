@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-11-09",
- "total": 275,
+ "gerado_em": "2026-11-17",
+ "total": 338,
  "pessoas": [
   {
    "nome": "Adilson Curi",
@@ -112,6 +112,32 @@
    "id": "CH-0004"
   },
   {
+   "nome": "Adriano Pinto Gomes",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Coordenador de projeto de pesquisa (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de pesquisa (2023): APLICABILIDADE DE PROGRAMAS CAD E APLICATIVOS GRATUITOS NO ENSINO DE DESENHO TÉCNICO E PROJETO ARQUITETÔNICO",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 38/2023"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0005"
+  },
+  {
    "nome": "Adrielle de Carvalho Santana",
    "instituicao": "UFOP",
    "unidade": "Escola de Minas",
@@ -135,7 +161,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0005"
+   "id": "CH-0006"
   },
   {
    "nome": "Agnaldo Jose da Rocha Reis",
@@ -161,7 +187,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0006"
+   "id": "CH-0007"
   },
   {
    "nome": "Alan Barros de Oliveira",
@@ -189,7 +215,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0007"
+   "id": "CH-0008"
   },
   {
    "nome": "Alan Kardek Rego Segundo",
@@ -215,7 +241,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0008"
+   "id": "CH-0009"
   },
   {
    "nome": "Alberto de Freitas Castro Fonseca",
@@ -245,7 +271,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0009"
+   "id": "CH-0010"
   },
   {
    "nome": "Alessandra Rodrigues Kozovits",
@@ -271,24 +297,36 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0010"
+   "id": "CH-0011"
   },
   {
    "nome": "Alex de Carvalho",
    "instituicao": "IFMG",
    "unidade": "Campus Ouro Preto",
    "setores": [
-    "Grupos de Pesquisa"
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
    ],
    "categoria": "Docente",
    "cargo": "Líder de grupo de pesquisa (CNPq)",
-   "titulacao": "",
-   "areas": "Geota - Grupo de Pesquisa em Geografia e Temáticas Ambientais",
+   "titulacao": "Doutorado",
+   "areas": "Geota - Grupo de Pesquisa em Geografia e Temáticas Ambientais (Ciências Exatas e da Terra; Geociências); Projeto de pesquisa (2026): A produção do espaço e as transformações nas relações sociais e na natureza determinadas pela mineração em Ouro Preto - MG; Projeto de pesquisa (2023): Condicionantes naturais e antrópicos da dinâmica hidrossedimentológica na bacia do rio Gualaxo do Sul; Projeto de pesquisa (2023): Avaliação ambiental de cursos d’água urbanos na sede de Ouro Preto, Minas Gerais …",
    "lattes": "",
    "programas": [],
    "fontes": [
-    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa"
+    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa",
+    "http://dgp.cnpq.br/dgp/espelhogrupo/3976160783519719",
+    "SUAP IFMG — Edital 715/2026",
+    "SUAP IFMG — Edital 34/2023",
+    "SUAP IFMG — Edital 38/2023",
+    "SUAP IFMG — Edital 62/2023",
+    "SUAP IFMG — Edital 69/2023",
+    "SUAP IFMG — Edital 187/2024",
+    "SUAP IFMG — Edital 186/2025",
+    "SUAP IFMG — Edital 690/2025",
+    "SUAP IFMG — Edital 330/2025"
    ],
+   "coleta": "2026-11-17",
    "afinidade_unidade": [
     "E2",
     "P2"
@@ -296,8 +334,36 @@
    "eixos_declarados": [],
    "orienta_ic": "",
    "adesao": "A consultar",
-   "coleta": "2026-11-09",
-   "id": "CH-0011"
+   "id": "CH-0012"
+  },
+  {
+   "nome": "Alex Fernandes Bohrer",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "Núcleo de Estudos em Novas Tecnologias Aplicadas à Preservação do Patrimônio Cultural (Ciências Exatas e da Terra; Ciência da Computação); Projeto de pesquisa (2023): Paisagens Pitorescas: análise das modificações urbanas e arquitetônicas de Ouro Preto através das obras dos viajantes estrangeiros do século XIX; Projeto de pesquisa (2024): Paisagens Pitorescas: análise das modificações urbanas e arquitetônicas de Ouro Preto através das obras dos viajantes estrangeiros do século XIX",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/6864021320356464",
+    "SUAP IFMG — Edital 38/2023",
+    "SUAP IFMG — Edital 187/2024"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0013"
   },
   {
    "nome": "Alexandre Silva de Paula",
@@ -323,7 +389,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0012"
+   "id": "CH-0014"
   },
   {
    "nome": "Alice Fernanda de Oliveira Costa",
@@ -349,7 +415,33 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0013"
+   "id": "CH-0015"
+  },
+  {
+   "nome": "Alice Yoko Horikawa",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "GEALI - Grupo de Estudos sobre Ensino e Aprendizagem de Língua Portuguesa e Literatura (Lingüística, Letras e Artes; Lingüística)",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/8071682766732612"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0016"
   },
   {
    "nome": "Aline de Araújo Nunes",
@@ -377,7 +469,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0014"
+   "id": "CH-0017"
   },
   {
    "nome": "Aline Kelly de Guimarães e Silva",
@@ -403,7 +495,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0015"
+   "id": "CH-0018"
   },
   {
    "nome": "Aloisio de Castro Gomes Junior",
@@ -429,7 +521,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0016"
+   "id": "CH-0019"
   },
   {
    "nome": "Américo Tristão Bernardes",
@@ -457,7 +549,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0017"
+   "id": "CH-0020"
   },
   {
    "nome": "Amilton Rodrigues da Silva",
@@ -483,24 +575,25 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0018"
+   "id": "CH-0021"
   },
   {
-   "nome": "Ana Elisa Costa Novais",
+   "nome": "Ana Carolina de Lima Matos",
    "instituicao": "IFMG",
    "unidade": "Campus Ouro Preto",
    "setores": [
-    "Grupos de Pesquisa"
+    "Projetos SUAP"
    ],
    "categoria": "Docente",
-   "cargo": "Líder de grupo de pesquisa (CNPq)",
+   "cargo": "Coordenador de projeto de pesquisa (SUAP)",
    "titulacao": "",
-   "areas": "GEALI - Grupo de Estudos sobre Ensino e Aprendizagem de Língua Portuguesa e Literatura",
+   "areas": "Projeto de pesquisa (2026): MOTIVA AÇÕES: Estudo sobre as variáveis de interesse, ingresso e permanência dos docentes das redes públicas e privadas da região dos inconfidentes em cursos de pós-graduação no ensino de Ciências com ênfase na Física",
    "lattes": "",
    "programas": [],
    "fontes": [
-    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa"
+    "SUAP IFMG — Edital 715/2026"
    ],
+   "coleta": "2026-11-17",
    "afinidade_unidade": [
     "E2",
     "P2"
@@ -508,8 +601,66 @@
    "eixos_declarados": [],
    "orienta_ic": "",
    "adesao": "A consultar",
-   "coleta": "2026-11-09",
-   "id": "CH-0019"
+   "id": "CH-0022"
+  },
+  {
+   "nome": "Ana Elisa Costa Novais",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Líder de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "GEALI - Grupo de Estudos sobre Ensino e Aprendizagem de Língua Portuguesa e Literatura (Lingüística, Letras e Artes; Lingüística); Projeto de pesquisa (2026): Acervo Fundão: consolidação, catalogação e difusão de um repositório digital sobre a memória de um desastre criado; Projeto de pesquisa (2025): Arquivo, memória, discurso, plataforma: memória digital do desastre do rompimento de Fundão; Projeto de pesquisa (2025): A produção do espaço e as transformações nas relações sociais e na natureza determinadas pela mineração em Ouro Preto - MG …",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa",
+    "http://dgp.cnpq.br/dgp/espelhogrupo/8071682766732612",
+    "SUAP IFMG — Edital 715/2026",
+    "SUAP IFMG — Edital 186/2025",
+    "SUAP IFMG — Edital 690/2025",
+    "SUAP IFMG — Edital 1/2024",
+    "SUAP IFMG — Edital 478/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0023"
+  },
+  {
+   "nome": "Ana Flavia Leao Pereira",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Coordenador de projeto de extensão (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de extensão (2024): La.Dança (Laboratorio de dança)",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 232/2024"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0024"
   },
   {
    "nome": "Ana Letícia Pilz de Castro",
@@ -540,7 +691,35 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0020"
+   "id": "CH-0025"
+  },
+  {
+   "nome": "Ana Paula Carvalho Barbosa",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Coordenador de projeto de extensão (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de extensão (2023): PRÁTICAS CORPORAIS ALTERNATIVAS (PCA’s) GINÁSTICA CIRCENSE E TAI CHI CHUAN: POSSIBILITANDO INCLUSÃO SOCIAL E CIDADANIA; Projeto de extensão (2023): Projeto Bola na mão é gol: Iniciação e Desenvolvimento no Handebol; Projeto de extensão (2025): Projeto Bola na mão é gol: Iniciação e Desenvolvimento no Handebol; Projeto de extensão (2026): Projeto Bola na mão é gol: Iniciação e Desenvolvimento no Handebol",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 37/2023",
+    "SUAP IFMG — Edital 942/2025",
+    "SUAP IFMG — Edital 555/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0026"
   },
   {
    "nome": "Ana Paula da Silva Cota",
@@ -566,7 +745,38 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0021"
+   "id": "CH-0027"
+  },
+  {
+   "nome": "Ana Paula de Moraes",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Participante de projeto de pesquisa (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de pesquisa (2026): Análise Tipológica da Casa Corrente Luso-Brasileira em Ouro Preto; Projeto de pesquisa (2023): Análise Tipológica da Casa Corrente Luso-Brasileira na região de Ouro Preto; Projeto de pesquisa (2024): Análise Tipológica da Casa Corrente Luso-Brasileira na região de Ouro Preto; Projeto de pesquisa (2025): Análise Tipológica da Casa Corrente Luso-Brasileira em Ouro Preto",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 715/2026",
+    "SUAP IFMG — Edital 69/2023",
+    "SUAP IFMG — Edital 187/2024",
+    "SUAP IFMG — Edital 186/2025",
+    "SUAP IFMG — Edital 690/2025",
+    "SUAP IFMG — Edital 8/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0028"
   },
   {
    "nome": "Ana Paula Moreira Barboza",
@@ -594,7 +804,36 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0022"
+   "id": "CH-0029"
+  },
+  {
+   "nome": "André Luís Barroso Almeida",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "Grupo de Pesquisa Inteligência Computacional Aplicada (Engenharias; Engenharia Elétrica); Projeto de pesquisa (2024): FIRE: Equipe de robótica do IFMG; Projeto de pesquisa (2025): FIRE: Equipe de robótica do IFMG",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/1588841652943471",
+    "SUAP IFMG — Edital 187/2024",
+    "SUAP IFMG — Edital 186/2025"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0030"
   },
   {
    "nome": "Andre Luis Silva",
@@ -620,7 +859,60 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0023"
+   "id": "CH-0031"
+  },
+  {
+   "nome": "Andre Monteiro Klen",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Coordenador de projeto de pesquisa (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de pesquisa (2025): Caracterização e Mapeamento dos Resíduos do Beneficiamento de Bauxita presentes na Barragem de Marzagão com Uso de Inteligência Artificial integrada a Imagens de Satélite; Projeto de pesquisa (2025): Exploração Mineral de Ferro e Alumínio a partir de Resíduos de Bauxita com integração de Sensoriamento Remoto e Machine Learning: Estudo de Caso na Barragem de Marzagão",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 186/2025",
+    "SUAP IFMG — Edital 690/2025"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0032"
+  },
+  {
+   "nome": "Andre Rodrigues de Oliveira Neto",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Coordenador de projeto de extensão (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de extensão (2026): Xadrez Educativo; Projeto de extensão (2026): Tênis de Mesa: pingponguear de possibilidades com o esporte de raquete",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 555/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0033"
   },
   {
    "nome": "André Vinicius dos Reis Pereira",
@@ -646,7 +938,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0024"
+   "id": "CH-0034"
   },
   {
    "nome": "Andréa Regina Dias da Silva",
@@ -672,7 +964,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0025"
+   "id": "CH-0035"
   },
   {
    "nome": "Aníbal da Fonseca Santiago",
@@ -703,7 +995,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0026"
+   "id": "CH-0036"
   },
   {
    "nome": "Antônio Celso Torres",
@@ -729,7 +1021,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0027"
+   "id": "CH-0037"
   },
   {
    "nome": "Antônio Fernando G. Bruzzi",
@@ -755,7 +1047,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0028"
+   "id": "CH-0038"
   },
   {
    "nome": "Antonio Francisco Neto",
@@ -781,7 +1073,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0029"
+   "id": "CH-0039"
   },
   {
    "nome": "Antonio Marcos da Silva",
@@ -807,7 +1099,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0030"
+   "id": "CH-0040"
   },
   {
    "nome": "Antônio Pedro de Freitas",
@@ -833,7 +1125,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0031"
+   "id": "CH-0041"
   },
   {
    "nome": "Antônio Valadão Cardoso",
@@ -861,7 +1153,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0032"
+   "id": "CH-0042"
   },
   {
    "nome": "Aparecida Barbosa Mageste",
@@ -889,7 +1181,65 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0033"
+   "id": "CH-0043"
+  },
+  {
+   "nome": "Ariana Cristina Santos Almeida",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "GEALI - Grupo de Estudos sobre Ensino e Aprendizagem de Língua Portuguesa e Literatura (Lingüística, Letras e Artes; Lingüística); Grupo de Pesquisa Realidades da Educação Profissional e Tecnológica (Ciências Humanas; Educação)",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/8071682766732612",
+    "http://dgp.cnpq.br/dgp/espelhogrupo/3706874782317162"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0044"
+  },
+  {
+   "nome": "Bárbara Helena Almeida Carmo",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Mestrado",
+   "areas": "Núcleo de Estudos em Novas Tecnologias Aplicadas à Preservação do Patrimônio Cultural (Ciências Exatas e da Terra; Ciência da Computação); Projeto de pesquisa (2026): Memória institucional: mapeamento e sistematização metodológica das disciplinas “Prática de Restauração” no Curso de Tecnologia em Conservação e Restauro do IFMG – Campus Ouro Preto; Projeto de extensão (2024): Oficina de Restauro Público; Projeto de extensão (2025): Oficina de Conservação: práticas formativas para a preservação do patrimônio; Projeto de extensão (2026): Oficina de Conservação: patrimônio institucional em foco",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/6864021320356464",
+    "SUAP IFMG — Edital 7/2026",
+    "SUAP IFMG — Edital 1/2024",
+    "SUAP IFMG — Edital 330/2025",
+    "SUAP IFMG — Edital 478/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0045"
   },
   {
    "nome": "Benjamin Gonçalves de Faria",
@@ -915,7 +1265,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0034"
+   "id": "CH-0046"
   },
   {
    "nome": "Bruna de Fatima Pedrosa Guedes Flausinio",
@@ -941,7 +1291,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0035"
+   "id": "CH-0047"
   },
   {
    "nome": "Bruna Silva Almada",
@@ -967,7 +1317,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0036"
+   "id": "CH-0048"
   },
   {
    "nome": "Bruno Eduardo Lobo Baêta",
@@ -995,7 +1345,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0037"
+   "id": "CH-0049"
   },
   {
    "nome": "Bruno Mendes Rodrigues",
@@ -1021,7 +1371,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0038"
+   "id": "CH-0050"
   },
   {
    "nome": "Bruno Nazário Coelho",
@@ -1047,7 +1397,36 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0039"
+   "id": "CH-0051"
+  },
+  {
+   "nome": "Bruno Rafael Camargos de Oliveira",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Coordenador de projeto de pesquisa (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de pesquisa (2025): Mapeamento e Análise das Atividades de Economia Solidária em Ouro Preto: Atores, Arranjos Produtivos e Tecnologia Social; Projeto de extensão (2024): Programa Rádio IFMG; Projeto de extensão (2025): Programa Rádio IFMG; Projeto de extensão (2026): Programa Rádio IFMG",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 610/2025",
+    "SUAP IFMG — Edital 1/2024",
+    "SUAP IFMG — Edital 330/2025",
+    "SUAP IFMG — Edital 478/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0052"
   },
   {
    "nome": "Bruno Randazzo Baroni",
@@ -1073,7 +1452,61 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0040"
+   "id": "CH-0053"
+  },
+  {
+   "nome": "Camilo de Lellis do Nascimento Henriques",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Coordenador de projeto de extensão (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de extensão (2025): Oficinas de basquetebol; Projeto de extensão (2026): Oficina de Basquetebol",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 751/2025",
+    "SUAP IFMG — Edital 635/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0054"
+  },
+  {
+   "nome": "Carla Rejane de Paula Barros Caetano",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Coordenador de projeto de extensão (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de extensão (2024): Curso básico de Língua Brasileira de Sinais - Libras e aspectos da cultura surda para familiares e colegas de estudantes de Ouro Preto; Projeto de extensão (2025): Libras e aspectos da cultura surda para familiares e colegas de estudantes de Ouro Preto",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 1/2024",
+    "SUAP IFMG — Edital 330/2025"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0055"
   },
   {
    "nome": "Carlos Alberto Pereira",
@@ -1099,7 +1532,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0041"
+   "id": "CH-0056"
   },
   {
    "nome": "Carlos Eduardo Ferraz de Mello",
@@ -1125,7 +1558,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0042"
+   "id": "CH-0057"
   },
   {
    "nome": "Carlos Enrique Arroyo Ortiz",
@@ -1151,7 +1584,40 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0043"
+   "id": "CH-0058"
+  },
+  {
+   "nome": "Caroline Delpupo Souza",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "Geota - Grupo de Pesquisa em Geografia e Temáticas Ambientais (Ciências Exatas e da Terra; Geociências); Projeto de pesquisa (2023): Condicionantes naturais e antrópicos da dinâmica hidrossedimentológica na bacia do rio Gualaxo do Sul; Projeto de pesquisa (2023): Avaliação ambiental de cursos d’água urbanos na sede de Ouro Preto, Minas Gerais; Projeto de pesquisa (2023): Espaço Geociências: concepção e implantação de laboratórios físico, virtual e itinerante como lócus de pesquisa, ensino e extensão …",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/3976160783519719",
+    "SUAP IFMG — Edital 34/2023",
+    "SUAP IFMG — Edital 38/2023",
+    "SUAP IFMG — Edital 62/2023",
+    "SUAP IFMG — Edital 69/2023",
+    "SUAP IFMG — Edital 187/2024",
+    "SUAP IFMG — Edital 186/2025"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0059"
   },
   {
    "nome": "Cassandra Terra Barbosa",
@@ -1177,7 +1643,63 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0044"
+   "id": "CH-0060"
+  },
+  {
+   "nome": "Cássio Oliveira Lignani",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "GEALI - Grupo de Estudos sobre Ensino e Aprendizagem de Língua Portuguesa e Literatura (Lingüística, Letras e Artes; Lingüística)",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/8071682766732612"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0061"
+  },
+  {
+   "nome": "Cecília Félix Andrade Silva",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "Grupo de Pesquisa em Ciências Ambientais, Econômicas e Sustentabilidade (Ciências Exatas e da Terra; Geociências); Projeto de pesquisa (2023): MAPEAMENTO DAS ÁREAS SUSCETÍVEIS A INUNDAÇÃO NO PERÍMETRO URBANO DOS DISTRITOS DE AMARANTINA E CACHOEIRA DO CAMPO; Projeto de pesquisa (2023): Eventos de Inundação no Quadrilátero Ferrífero: uma abordagem geomorfológica para o caso de Amarantina (município de Ouro Preto – MG); Projeto de pesquisa (2023): PROJETO DE CRIAÇÃO DO LABORATÓRIO DE GEOGRAFIA HUMANA E SUSTENTABILIDADE DO IFMG CAMPUS OURO PRETO",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/8545658261409410",
+    "SUAP IFMG — Edital 34/2023",
+    "SUAP IFMG — Edital 38/2023",
+    "SUAP IFMG — Edital 62/2023"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0062"
   },
   {
    "nome": "César Falcão Barella",
@@ -1203,7 +1725,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0045"
+   "id": "CH-0063"
   },
   {
    "nome": "Clarisse da Silva Vieira Camelo de Souza",
@@ -1229,7 +1751,33 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0046"
+   "id": "CH-0064"
+  },
+  {
+   "nome": "Claudia Camilo de Oliveira",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Coordenador de projeto de extensão (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de extensão (2026): La Dança: Laboratório de experimentação em dança, ritmo e movimento",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 555/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0065"
   },
   {
    "nome": "Cláudia dos Santos",
@@ -1255,7 +1803,33 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0047"
+   "id": "CH-0066"
+  },
+  {
+   "nome": "Claudio Aguiar Vita",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Coordenador de projeto de pesquisa (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de pesquisa (2026): Observatório Socioeconômico da Cesta Básica, Segurança Alimentar e Poder de Compra das Famílias em Ouro Preto – MG",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 715/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0067"
   },
   {
    "nome": "Cláudio Eduardo Lana",
@@ -1281,7 +1855,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0048"
+   "id": "CH-0068"
   },
   {
    "nome": "Claudio Gouvea dos Santos",
@@ -1309,7 +1883,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0049"
+   "id": "CH-0069"
   },
   {
    "nome": "Claver Antonio Fontes Vilela",
@@ -1335,7 +1909,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0050"
+   "id": "CH-0070"
   },
   {
    "nome": "Cristiane Paula de Castro Gonçalves",
@@ -1361,7 +1935,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0051"
+   "id": "CH-0071"
   },
   {
    "nome": "Cristiano Luis Turbino de Franca e Silva",
@@ -1387,7 +1961,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0052"
+   "id": "CH-0072"
   },
   {
    "nome": "Cristiano Schetini de Azevedo",
@@ -1413,7 +1987,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0053"
+   "id": "CH-0073"
   },
   {
    "nome": "Cristina de Oliveira Maia",
@@ -1439,7 +2013,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0054"
+   "id": "CH-0074"
   },
   {
    "nome": "Daiana Mendes de Oliveira Rossi",
@@ -1465,7 +2039,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0055"
+   "id": "CH-0075"
   },
   {
    "nome": "Dalila Chaves Sicupira",
@@ -1493,7 +2067,59 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0056"
+   "id": "CH-0076"
+  },
+  {
+   "nome": "Daniel Bretas Roa",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Coordenador de projeto de extensão (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de extensão (2026): O céu ao alcance de todos: popularização da Astronomia e da Física por meio de observações e atividades em espaços formais e não formais de educação",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 478/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0077"
+  },
+  {
+   "nome": "Daniel da Mota Neri",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Coordenador de projeto de extensão (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de extensão (2026): Uma proposta de aproximação entre o curso de Licenciatura em Física do IFMG – Campus Ouro Preto e os estudantes da Educação Básica",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 191/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0078"
   },
   {
    "nome": "Daniel Martins de Sousa",
@@ -1519,7 +2145,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0057"
+   "id": "CH-0079"
   },
   {
    "nome": "Daniel Silva Jaques",
@@ -1545,7 +2171,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0058"
+   "id": "CH-0080"
   },
   {
    "nome": "Daniela Antunes Lessa",
@@ -1576,7 +2202,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0059"
+   "id": "CH-0081"
   },
   {
    "nome": "Daniela Batista dos Santos",
@@ -1602,7 +2228,33 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0060"
+   "id": "CH-0082"
+  },
+  {
+   "nome": "Danielle Teresa Penna e Fortes",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Técnico-administrativo",
+   "cargo": "Coordenador de projeto de extensão (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de extensão (2023): Oficina de canto coral",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 28/2023"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0083"
   },
   {
    "nome": "Danny Augusto Vieira Tonidandel",
@@ -1628,7 +2280,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0061"
+   "id": "CH-0084"
   },
   {
    "nome": "Danon Clemes Cardoso",
@@ -1654,7 +2306,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0062"
+   "id": "CH-0085"
   },
   {
    "nome": "Davi Neves Pavanelli",
@@ -1680,7 +2332,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0063"
+   "id": "CH-0086"
   },
   {
    "nome": "Davi Oliveira e Silva",
@@ -1706,7 +2358,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0064"
+   "id": "CH-0087"
   },
   {
    "nome": "Deborah Aragão Soares",
@@ -1732,24 +2384,30 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0065"
+   "id": "CH-0088"
   },
   {
    "nome": "Denilson Junio Marques Soares",
    "instituicao": "IFMG",
    "unidade": "Campus Ouro Preto",
    "setores": [
-    "Grupos de Pesquisa"
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
    ],
    "categoria": "Docente",
    "cargo": "Líder de grupo de pesquisa (CNPq)",
-   "titulacao": "",
-   "areas": "Análise e Modelagem de Dados Educacionais",
+   "titulacao": "Doutorado",
+   "areas": "Análise e Modelagem de Dados Educacionais (Ciências Humanas; Educação); Projeto de pesquisa (2024): Atitudes docentes em relação às avaliações externas em larga escala: análises na região dos Inconfidentes/MG; Projeto de pesquisa (2024): Qualidade Psicométrica das Questões de Matemática do Enem: Um Estudo Comparativo entre Áreas; Projeto de pesquisa (2024): Inovação na Educação Básica: O NEPSO como ferramenta pedagógica para o ensino e aprendizagem de Estatística; Projeto de pesquisa (2025): Educação Estatística no Contexto Social: Entre Números e Realidades",
    "lattes": "",
    "programas": [],
    "fontes": [
-    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa"
+    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa",
+    "http://dgp.cnpq.br/dgp/espelhogrupo/5482026993015857",
+    "SUAP IFMG — Edital 187/2024",
+    "SUAP IFMG — Edital 373/2024",
+    "SUAP IFMG — Edital 186/2025"
    ],
+   "coleta": "2026-11-17",
    "afinidade_unidade": [
     "E2",
     "P2"
@@ -1757,25 +2415,52 @@
    "eixos_declarados": [],
    "orienta_ic": "",
    "adesao": "A consultar",
-   "coleta": "2026-11-09",
-   "id": "CH-0066"
+   "id": "CH-0089"
   },
   {
-   "nome": "Diego Oliveira",
+   "nome": "Denise Conceicao das Gracas",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Coordenador de projeto de extensão (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de extensão (2024): Grupo de Alfabetização de Adolescentes, Jovens e Adultos; Projeto de extensão (2025): Projeto de Extensão e Ensino Pré ENEM",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 1/2024",
+    "SUAP IFMG — Edital 330/2025"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0090"
+  },
+  {
+   "nome": "Diana Luiza Marinho Brandão",
    "instituicao": "IFMG",
    "unidade": "Campus Ouro Preto",
    "setores": [
     "Grupos de Pesquisa"
    ],
    "categoria": "Docente",
-   "cargo": "Líder de grupo de pesquisa (CNPq)",
-   "titulacao": "",
-   "areas": "Grupo de Pesquisas Interdisciplinares em Áreas Úmidas",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Mestrado",
+   "areas": "Grupo de Pesquisa Básica, Aplicada e Educacional em Ciências Biológicas (Ciências Biológicas; Biologia Geral)",
    "lattes": "",
    "programas": [],
    "fontes": [
-    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa"
+    "http://dgp.cnpq.br/dgp/espelhogrupo/7734451508324836"
    ],
+   "coleta": "2026-11-17",
    "afinidade_unidade": [
     "E2",
     "P2"
@@ -1783,8 +2468,98 @@
    "eixos_declarados": [],
    "orienta_ic": "",
    "adesao": "A consultar",
-   "coleta": "2026-11-09",
-   "id": "CH-0067"
+   "id": "CH-0091"
+  },
+  {
+   "nome": "Diego Alves de Oliveira",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Líder de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "Grupo de Pesquisas Interdisciplinares em Áreas Úmidas (Ciências Exatas e da Terra; Geociências); Projeto de pesquisa (2023): Análise ambiental de lagoas marginais do alto curso do rio São Francisco; Projeto de pesquisa (2023): Fomento à Ambientes de Pesquisa no IFMG: grupo de Pesquisas Interdisciplinares em Áreas Úmidas; Projeto de pesquisa (2025): Metodologias ativas e inovação educacional no ensino de Geografia Física: aprendizagem significativa sobre bacias hidrográficas a partir do território local",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa",
+    "http://dgp.cnpq.br/dgp/espelhogrupo/8603033363255265",
+    "SUAP IFMG — Edital 34/2023",
+    "SUAP IFMG — Edital 38/2023",
+    "SUAP IFMG — Edital 62/2023",
+    "SUAP IFMG — Edital 926/2025"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0092"
+  },
+  {
+   "nome": "Diego de Souza Rodrigues",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
+   ],
+   "categoria": "Técnico-administrativo",
+   "cargo": "Técnico(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Especialização",
+   "areas": "Grupo de Pesquisa em Ciências Ambientais, Econômicas e Sustentabilidade (Ciências Exatas e da Terra; Geociências); Projeto de pesquisa (2026): UMA AVALIAÇÃO DO CONCEITO DE BIODIVERSIDADE SEGUNDO ALUNOS DA EJA DA REDE ESTADUAL DO MUNICÍPIO DE ITABIRITO - MINAS GERAIS; Projeto de pesquisa (2023): UMA AVALIAÇÃO DO CONCEITO DE BIODIVERSIDADE SEGUNDO ALUNOS DO ENSINO MÉDIO DA EJA DA REDE ESTADUAL DO MUNICÍPIO DE OURO PRETO - MINAS GERAIS; Projeto de pesquisa (2024): UMA AVALIAÇÃO DO CONCEITO DE BIODIVERSIDADE SEGUNDO ALUNOS DA EJA DO MUNICÍPIO DE MARIANA - MINAS GERAIS …",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/8545658261409410",
+    "SUAP IFMG — Edital 715/2026",
+    "SUAP IFMG — Edital 38/2023",
+    "SUAP IFMG — Edital 187/2024",
+    "SUAP IFMG — Edital 186/2025",
+    "SUAP IFMG — Edital 8/2026",
+    "SUAP IFMG — Edital 6/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0093"
+  },
+  {
+   "nome": "Diego Meira Benitez",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa"
+   ],
+   "categoria": "Técnico-administrativo",
+   "cargo": "Técnico(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Graduação",
+   "areas": "GEALI - Grupo de Estudos sobre Ensino e Aprendizagem de Língua Portuguesa e Literatura (Lingüística, Letras e Artes; Lingüística)",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/8071682766732612"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0094"
   },
   {
    "nome": "Dilhermando Ferreira Campos",
@@ -1810,7 +2585,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0068"
+   "id": "CH-0095"
   },
   {
    "nome": "Diogenes Viegas Mendes Ferreira",
@@ -1836,7 +2611,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0069"
+   "id": "CH-0096"
   },
   {
    "nome": "Éder Marinho Martins",
@@ -1862,7 +2637,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0070"
+   "id": "CH-0097"
   },
   {
    "nome": "Edison Tazava",
@@ -1888,7 +2663,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0071"
+   "id": "CH-0098"
   },
   {
    "nome": "Edney Augusto Jesus de Oliveira",
@@ -1914,33 +2689,36 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0072"
+   "id": "CH-0099"
   },
   {
    "nome": "Edson Martins de Oliveira",
    "instituicao": "IFMG",
    "unidade": "Campus Ouro Preto",
    "setores": [
-    "DPIPG"
+    "DPIPG",
+    "Grupos de Pesquisa"
    ],
    "categoria": "Gestão de pesquisa e inovação",
    "cargo": "Chefia — Seção de Inovação",
-   "titulacao": "",
-   "areas": "Seção de Inovação",
+   "titulacao": "Mestrado Profissional",
+   "areas": "Seção de Inovação; Grupo de Pesquisas Interdisciplinares em Áreas Úmidas (Ciências Exatas e da Terra; Geociências)",
    "lattes": "",
    "programas": [],
    "fontes": [
-    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/equipe-da-dpipg"
+    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/equipe-da-dpipg",
+    "http://dgp.cnpq.br/dgp/espelhogrupo/8603033363255265"
    ],
+   "coleta": "2026-11-17",
    "afinidade_unidade": [
     "E2",
-    "X1"
+    "X1",
+    "P2"
    ],
    "eixos_declarados": [],
    "orienta_ic": "",
    "adesao": "A consultar",
-   "coleta": "2026-11-09",
-   "id": "CH-0073"
+   "id": "CH-0100"
   },
   {
    "nome": "Eliane Ayres",
@@ -1968,7 +2746,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0074"
+   "id": "CH-0101"
   },
   {
    "nome": "Elisangela Fatima de Oliveira",
@@ -1994,7 +2772,94 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0075"
+   "id": "CH-0102"
+  },
+  {
+   "nome": "Elisangela Silva Pinto",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Coordenador de projeto de pesquisa (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de pesquisa (2023): Comparação entre Glotaran e KiMoPack para análise de dados de Espectroscopia Resolvida no Tempo usando dados de bases análogas às de DNA/RNA; Projeto de pesquisa (2023): Mapeamento de evadidos e de egressos no Curso de Licenciatura em Física do IFMG Campus Ouro Preto; Projeto de pesquisa (2023): Uma proposta interdisciplinar para o estudo de Física e Biologia utilizando a Microscopia Ótica; Projeto de pesquisa (2025): A interdisciplinaridade no ensino médio: teoria ou prática?",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 38/2023",
+    "SUAP IFMG — Edital 186/2025"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0103"
+  },
+  {
+   "nome": "Elizêne Veloso Ribeiro",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "Grupo de Pesquisas Interdisciplinares em Áreas Úmidas (Ciências Exatas e da Terra; Geociências); Projeto de pesquisa (2023): Análise ambiental de lagoas marginais do alto curso do rio São Francisco; Projeto de pesquisa (2023): Fomento à Ambientes de Pesquisa no IFMG: grupo de Pesquisas Interdisciplinares em Áreas Úmidas; Projeto de extensão (2025): DA ESCOLA À BACIA: ÁGUA PARA UM FUTURO SUSTENTÁVEL",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/8603033363255265",
+    "SUAP IFMG — Edital 34/2023",
+    "SUAP IFMG — Edital 62/2023",
+    "SUAP IFMG — Edital 330/2025"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0104"
+  },
+  {
+   "nome": "Elke Beatriz Felix Pena",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "GEALI - Grupo de Estudos sobre Ensino e Aprendizagem de Língua Portuguesa e Literatura (Lingüística, Letras e Artes; Lingüística); Projeto de pesquisa (2026): Violência de gênero em Água de Barrela, de Eliane Alvez Cruz e Caminhando com os mortos, de Micheliny Verunschk; Projeto de pesquisa (2025): Violência de gênero em Água de Barrela, de Eliane Alvez Cruz e Caminhando com os mortos, de Micheliny Verunschk; Projeto de pesquisa (2025): Arquivo, memória, discurso, plataforma: memória digital do desastre do rompimento de Fundão …",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/8071682766732612",
+    "SUAP IFMG — Edital 715/2026",
+    "SUAP IFMG — Edital 186/2025",
+    "SUAP IFMG — Edital 690/2025"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0105"
   },
   {
    "nome": "Elton Destro",
@@ -2020,7 +2885,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0076"
+   "id": "CH-0106"
   },
   {
    "nome": "Emílio Evo Magro Correa Urbano",
@@ -2046,7 +2911,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0077"
+   "id": "CH-0107"
   },
   {
    "nome": "Eneida Maria Eskinazi Sant'Anna",
@@ -2072,7 +2937,33 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0078"
+   "id": "CH-0108"
+  },
+  {
+   "nome": "Érica Alessandra Fernandes Aniceto",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "GEALI - Grupo de Estudos sobre Ensino e Aprendizagem de Língua Portuguesa e Literatura (Lingüística, Letras e Artes; Lingüística)",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/8071682766732612"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0109"
   },
   {
    "nome": "Érica Linhares Reis",
@@ -2098,7 +2989,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0079"
+   "id": "CH-0110"
   },
   {
    "nome": "Érica Resende Malaspina",
@@ -2124,7 +3015,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0080"
+   "id": "CH-0111"
   },
   {
    "nome": "Ernani Carlos de Araújo",
@@ -2153,7 +3044,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0081"
+   "id": "CH-0112"
   },
   {
    "nome": "Estefania Fernandes dos Santos",
@@ -2179,7 +3070,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0082"
+   "id": "CH-0113"
   },
   {
    "nome": "Everson Silva Almeida",
@@ -2205,7 +3096,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0083"
+   "id": "CH-0114"
   },
   {
    "nome": "Fabiana Lopes Fernandes",
@@ -2231,7 +3122,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0084"
+   "id": "CH-0115"
   },
   {
    "nome": "Fábio Augusto Rodrigues e Silva",
@@ -2257,7 +3148,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0085"
+   "id": "CH-0116"
   },
   {
    "nome": "Felipe de Campos Loch",
@@ -2283,7 +3174,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0086"
+   "id": "CH-0117"
   },
   {
    "nome": "Felipe Ribeiro Souza",
@@ -2309,7 +3200,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0087"
+   "id": "CH-0118"
   },
   {
    "nome": "Felipe Rogério Pimentel",
@@ -2335,7 +3226,35 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0088"
+   "id": "CH-0119"
+  },
+  {
+   "nome": "Fernanda Luiza de Sousa",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Coordenador de projeto de pesquisa (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de pesquisa (2026): Fatores que influenciam o interesse, o ingresso, a permanência e a evasão no curso de Licenciatura em Física do IFMG – Campus Ouro Preto: perspectivas para a formação docente; Projeto de pesquisa (2025): Fatores que influenciam o interesse, o ingresso, a permanência e a evasão no curso de Licenciatura em Física do IFMG – Campus Ouro Preto: perspectivas para a formação docente",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 715/2026",
+    "SUAP IFMG — Edital 690/2025",
+    "SUAP IFMG — Edital 8/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0120"
   },
   {
    "nome": "Fernanda Sant'Ana Seabra",
@@ -2361,7 +3280,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0089"
+   "id": "CH-0121"
   },
   {
    "nome": "Fernando dos Santos A. Fernandes",
@@ -2387,7 +3306,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0090"
+   "id": "CH-0122"
   },
   {
    "nome": "Fernando Gabriel da Silva Araújo",
@@ -2415,7 +3334,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0091"
+   "id": "CH-0123"
   },
   {
    "nome": "Filipe Altoé Temporim",
@@ -2441,7 +3360,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0092"
+   "id": "CH-0124"
   },
   {
    "nome": "Filipe Giovanini Varejão",
@@ -2467,7 +3386,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0093"
+   "id": "CH-0125"
   },
   {
    "nome": "Flávia Compassi da Costa",
@@ -2493,7 +3412,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0094"
+   "id": "CH-0126"
   },
   {
    "nome": "Flávio Affonso Ferreira Filho",
@@ -2519,7 +3438,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0095"
+   "id": "CH-0127"
   },
   {
    "nome": "Flávio Almeida Lemos",
@@ -2545,7 +3464,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0096"
+   "id": "CH-0128"
   },
   {
    "nome": "Flávio Luiz Martins",
@@ -2571,7 +3490,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0097"
+   "id": "CH-0129"
   },
   {
    "nome": "Francisca Diana Ferreira Viana",
@@ -2597,7 +3516,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0098"
+   "id": "CH-0130"
   },
   {
    "nome": "Francisco Célio de Araújo",
@@ -2623,7 +3542,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0099"
+   "id": "CH-0131"
   },
   {
    "nome": "Francisco de Assis das Neves",
@@ -2649,7 +3568,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0100"
+   "id": "CH-0132"
   },
   {
    "nome": "Francisco de Paula Coelho",
@@ -2675,7 +3594,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0101"
+   "id": "CH-0133"
   },
   {
    "nome": "Franscisco Fortunato Fernandes",
@@ -2701,7 +3620,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0102"
+   "id": "CH-0134"
   },
   {
    "nome": "George Alberto Dias",
@@ -2727,33 +3646,62 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0103"
+   "id": "CH-0135"
   },
   {
    "nome": "Geralda Aparecida de Carvalho Pena",
    "instituicao": "IFMG",
    "unidade": "Campus Ouro Preto",
    "setores": [
-    "DPIPG"
+    "DPIPG",
+    "Projetos SUAP"
    ],
    "categoria": "Gestão de pesquisa e inovação",
    "cargo": "Chefia — Seção de Pós-graduação",
    "titulacao": "",
-   "areas": "Seção de Pós-graduação",
+   "areas": "Seção de Pós-graduação; Projeto de pesquisa (2025): A formação nos Institutos Federais: direcionando o olhar para as pesquisas sobre a formação docente",
    "lattes": "",
    "programas": [],
    "fontes": [
-    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/equipe-da-dpipg"
+    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/equipe-da-dpipg",
+    "SUAP IFMG — Edital 186/2025"
    ],
+   "coleta": "2026-11-17",
    "afinidade_unidade": [
     "E2",
-    "X1"
+    "X1",
+    "P2"
    ],
    "eixos_declarados": [],
    "orienta_ic": "",
    "adesao": "A consultar",
-   "coleta": "2026-11-09",
-   "id": "CH-0104"
+   "id": "CH-0136"
+  },
+  {
+   "nome": "Geralda Vanessa Campos Machado",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Técnico-administrativo",
+   "cargo": "Participante de projeto de pesquisa (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de pesquisa (2026): Da agricultura familiar ao restaurante estudantil: inserção de Plantas Alimentícias Não Convencionais (PANC) na alimentação institucional do IFMG Campus Ouro Preto",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 715/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0137"
   },
   {
    "nome": "Geraldo Donizetti de Paula",
@@ -2779,7 +3727,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0105"
+   "id": "CH-0138"
   },
   {
    "nome": "Geraldo Lucio de Faria",
@@ -2807,7 +3755,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0106"
+   "id": "CH-0139"
   },
   {
    "nome": "Geraldo Magela Santos Sampaio",
@@ -2833,7 +3781,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0107"
+   "id": "CH-0140"
   },
   {
    "nome": "Germano Mendes Rosa",
@@ -2844,13 +3792,15 @@
    ],
    "categoria": "Docente",
    "cargo": "Líder de grupo de pesquisa (CNPq)",
-   "titulacao": "",
-   "areas": "Grupo de Pesquisa Realidades da Educação Profissional e Tecnológica",
+   "titulacao": "Doutorado",
+   "areas": "Grupo de Pesquisa Realidades da Educação Profissional e Tecnológica (Ciências Humanas; Educação)",
    "lattes": "",
    "programas": [],
    "fontes": [
-    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa"
+    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa",
+    "http://dgp.cnpq.br/dgp/espelhogrupo/3706874782317162"
    ],
+   "coleta": "2026-11-17",
    "afinidade_unidade": [
     "E2",
     "P2"
@@ -2858,8 +3808,7 @@
    "eixos_declarados": [],
    "orienta_ic": "",
    "adesao": "A consultar",
-   "coleta": "2026-11-09",
-   "id": "CH-0108"
+   "id": "CH-0141"
   },
   {
    "nome": "Gil Fidelix de Souza",
@@ -2885,7 +3834,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0109"
+   "id": "CH-0142"
   },
   {
    "nome": "Gilney Afonso Gonçalves",
@@ -2911,7 +3860,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0110"
+   "id": "CH-0143"
   },
   {
    "nome": "Gláucia Nascimento Queiroga",
@@ -2937,33 +3886,39 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0111"
+   "id": "CH-0144"
   },
   {
    "nome": "Guilherme de Oliveira Walter",
    "instituicao": "IFMG",
    "unidade": "Campus Ouro Preto",
    "setores": [
-    "DPIPG"
+    "DPIPG",
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
    ],
    "categoria": "Gestão de pesquisa e inovação",
    "cargo": "Técnico-administrativo — Seção de Inovação",
-   "titulacao": "",
-   "areas": "Seção de Inovação",
+   "titulacao": "Mestrado Profissional",
+   "areas": "Seção de Inovação; Núcleo de Estudos em Novas Tecnologias Aplicadas à Preservação do Patrimônio Cultural (Ciências Exatas e da Terra; Ciência da Computação); Grupo de Pesquisa Inteligência Computacional Aplicada (Engenharias; Engenharia Elétrica); Projeto de pesquisa (2024): Desenvolvimento de dispositivo de alerta para deslizamento de terra - Ouro Preto em Alerta",
    "lattes": "",
    "programas": [],
    "fontes": [
-    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/equipe-da-dpipg"
+    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/equipe-da-dpipg",
+    "http://dgp.cnpq.br/dgp/espelhogrupo/6864021320356464",
+    "http://dgp.cnpq.br/dgp/espelhogrupo/1588841652943471",
+    "SUAP IFMG — Edital 187/2024"
    ],
+   "coleta": "2026-11-17",
    "afinidade_unidade": [
     "E2",
-    "X1"
+    "X1",
+    "P2"
    ],
    "eixos_declarados": [],
    "orienta_ic": "",
    "adesao": "A consultar",
-   "coleta": "2026-11-09",
-   "id": "CH-0112"
+   "id": "CH-0145"
   },
   {
    "nome": "Guilherme Jorge Brigolini Silva",
@@ -2989,7 +3944,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0113"
+   "id": "CH-0146"
   },
   {
    "nome": "Guilherme José Cunha Gomes",
@@ -3015,7 +3970,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0114"
+   "id": "CH-0147"
   },
   {
    "nome": "Gustavo Henrique Coelho de Melo",
@@ -3041,7 +3996,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0115"
+   "id": "CH-0148"
   },
   {
    "nome": "Gustavo Henrique Costa de Souza",
@@ -3067,7 +4022,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0116"
+   "id": "CH-0149"
   },
   {
    "nome": "Gustavo Nikolaus Pinto de Moura",
@@ -3093,7 +4048,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0117"
+   "id": "CH-0150"
   },
   {
    "nome": "Hebert da Consolação Alves",
@@ -3119,7 +4074,36 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0118"
+   "id": "CH-0151"
+  },
+  {
+   "nome": "Helena Santos Assuncao",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Participante de projeto de pesquisa (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de pesquisa (2026): Levantamento do perfil e demandas educacionais dos Povos e Comunidades Tradicionais na RMBH e Região dos Inconfidentes; Projeto de pesquisa (2024): Levantamento do perfil e demandas educacionais dos Povos e Comunidades Tradicionais na RMBH e Região dos Inconfidentes; Projeto de pesquisa (2025): Levantamento do perfil e demandas educacionais dos Povos e Comunidades Tradicionais na RMBH e Região dos Inconfidentes; Projeto de pesquisa (2026): Cartografia e Ecologia das Práticas Religiosas Afro-Diaspóricas em Belo Horizonte …",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 715/2026",
+    "SUAP IFMG — Edital 187/2024",
+    "SUAP IFMG — Edital 186/2025",
+    "SUAP IFMG — Edital 8/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0152"
   },
   {
    "nome": "Heloisa Nazaré dos Santos",
@@ -3147,7 +4131,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0119"
+   "id": "CH-0153"
   },
   {
    "nome": "Helton Cristiano Gomes",
@@ -3173,7 +4157,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0120"
+   "id": "CH-0154"
   },
   {
    "nome": "Hermínio Arias Nalini Júnior",
@@ -3199,7 +4183,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0121"
+   "id": "CH-0155"
   },
   {
    "nome": "Hernani Mota de Lima",
@@ -3225,7 +4209,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0122"
+   "id": "CH-0156"
   },
   {
    "nome": "Hubert Mathias Peter Roeser",
@@ -3255,7 +4239,33 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0123"
+   "id": "CH-0157"
+  },
+  {
+   "nome": "Hudney Alves Faria de Carvalho",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa"
+   ],
+   "categoria": "Técnico-administrativo",
+   "cargo": "Técnico(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Mestrado Profissional",
+   "areas": "Geota - Grupo de Pesquisa em Geografia e Temáticas Ambientais (Ciências Exatas e da Terra; Geociências)",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/3976160783519719"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0158"
   },
   {
    "nome": "Hugo Bonette de Carvalho",
@@ -3283,7 +4293,94 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0124"
+   "id": "CH-0159"
+  },
+  {
+   "nome": "Hugo Coelho Pereira",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa"
+   ],
+   "categoria": "Técnico-administrativo",
+   "cargo": "Técnico(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Graduação",
+   "areas": "Grupo de Pesquisa Inteligência Computacional Aplicada (Engenharias; Engenharia Elétrica)",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/1588841652943471"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0160"
+  },
+  {
+   "nome": "Hugo Rafael Nogueira Gomes",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Participante de projeto de pesquisa (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de pesquisa (2024): FIRE: Equipe de robótica do IFMG; Projeto de pesquisa (2025): FIRE: Equipe de robótica do IFMG",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 187/2024",
+    "SUAP IFMG — Edital 186/2025"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0161"
+  },
+  {
+   "nome": "Igor Rafael Torres Santos",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "Grupo de Pesquisa em Ciências Ambientais, Econômicas e Sustentabilidade (Ciências Exatas e da Terra; Geociências); Projeto de pesquisa (2023): Agentes Sociais e Metropolização: uma análise da dinâmica imobiliária recente nos municípios de Itabirito e de Ouro Preto-MG; Projeto de pesquisa (2023): UMA AVALIAÇÃO DO CONCEITO DE BIODIVERSIDADE SEGUNDO ALUNOS DO ENSINO MÉDIO DA EJA DA REDE ESTADUAL DO MUNICÍPIO DE OURO PRETO - MINAS GERAIS; Projeto de pesquisa (2023): PROJETO DE CRIAÇÃO DO LABORATÓRIO DE GEOGRAFIA HUMANA E SUSTENTABILIDADE DO IFMG CAMPUS OURO PRETO …",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/8545658261409410",
+    "SUAP IFMG — Edital 34/2023",
+    "SUAP IFMG — Edital 38/2023",
+    "SUAP IFMG — Edital 62/2023",
+    "SUAP IFMG — Edital 69/2023",
+    "SUAP IFMG — Edital 186/2025",
+    "SUAP IFMG — Edital 6/2026",
+    "SUAP IFMG — Edital 478/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0162"
   },
   {
    "nome": "Irce Fernandes Gomes Guimaraes",
@@ -3309,7 +4406,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0125"
+   "id": "CH-0163"
   },
   {
    "nome": "Isaac Daniel Rudnitzki",
@@ -3335,7 +4432,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0126"
+   "id": "CH-0164"
   },
   {
    "nome": "Isabela Carvalho de Morais",
@@ -3361,7 +4458,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0127"
+   "id": "CH-0165"
   },
   {
    "nome": "Isaque Viza de Souza",
@@ -3387,7 +4484,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0128"
+   "id": "CH-0166"
   },
   {
    "nome": "Issamu Endo",
@@ -3413,7 +4510,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0129"
+   "id": "CH-0167"
   },
   {
    "nome": "Ive Silvestre de Almeida",
@@ -3441,7 +4538,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0130"
+   "id": "CH-0168"
   },
   {
    "nome": "Ivo Eyer Cabral",
@@ -3467,7 +4564,67 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0131"
+   "id": "CH-0169"
+  },
+  {
+   "nome": "Jairo Rodrigues Silva",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "Grupo de Pesquisa em Ciências Ambientais, Econômicas e Sustentabilidade (Ciências Exatas e da Terra; Geociências); Projeto de pesquisa (2023): MAPEAMENTO DAS ÁREAS SUSCETÍVEIS A INUNDAÇÃO NO PERÍMETRO URBANO DOS DISTRITOS DE AMARANTINA E CACHOEIRA DO CAMPO; Projeto de pesquisa (2023): Eventos de Inundação no Quadrilátero Ferrífero: uma abordagem geomorfológica para o caso de Amarantina (município de Ouro Preto – MG)",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/8545658261409410",
+    "SUAP IFMG — Edital 34/2023",
+    "SUAP IFMG — Edital 38/2023"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0170"
+  },
+  {
+   "nome": "Januaria Fonseca Matos",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "Grupo de Pesquisa Básica, Aplicada e Educacional em Ciências Biológicas (Ciências Biológicas; Biologia Geral); Grupo de Pesquisa Realidades da Educação Profissional e Tecnológica (Ciências Humanas; Educação); Projeto de pesquisa (2026): Da agricultura familiar ao restaurante estudantil: inserção de Plantas Alimentícias Não Convencionais (PANC) na alimentação institucional do IFMG Campus Ouro Preto; Projeto de pesquisa (2026): Avaliação do conhecimento de estudantes e servidores sobre plantas alimentícias não convencionais (PANCs) em uma escola pública profissionalizante de Ouro Preto …",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/7734451508324836",
+    "http://dgp.cnpq.br/dgp/espelhogrupo/3706874782317162",
+    "SUAP IFMG — Edital 715/2026",
+    "SUAP IFMG — Edital 38/2023",
+    "SUAP IFMG — Edital 186/2025"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0171"
   },
   {
    "nome": "Jeferson Camilo Silva",
@@ -3493,7 +4650,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0132"
+   "id": "CH-0172"
   },
   {
    "nome": "Jéssica Xavier",
@@ -3519,7 +4676,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0133"
+   "id": "CH-0173"
   },
   {
    "nome": "João Carlos Vilela de Castro",
@@ -3545,7 +4702,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0134"
+   "id": "CH-0174"
   },
   {
    "nome": "João Estevão dos Santos Neto",
@@ -3571,7 +4728,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0135"
+   "id": "CH-0175"
   },
   {
    "nome": "João Pedro Torrezani Martins Hippertt",
@@ -3597,7 +4754,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0136"
+   "id": "CH-0176"
   },
   {
    "nome": "Johne Jesus Mol Peixoto",
@@ -3625,7 +4782,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0137"
+   "id": "CH-0177"
   },
   {
    "nome": "Joney Justo da Silva",
@@ -3651,7 +4808,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0138"
+   "id": "CH-0178"
   },
   {
    "nome": "Jorge Luiz Brescia Murta",
@@ -3677,7 +4834,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0139"
+   "id": "CH-0179"
   },
   {
    "nome": "José Alberto Naves Cocota Junior",
@@ -3703,7 +4860,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0140"
+   "id": "CH-0180"
   },
   {
    "nome": "Jose Artur dos Santos Ferreira",
@@ -3729,7 +4886,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0141"
+   "id": "CH-0181"
   },
   {
    "nome": "José Aurélio Medeiros da Luz",
@@ -3755,7 +4912,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0142"
+   "id": "CH-0182"
   },
   {
    "nome": "José Fernando Miranda",
@@ -3781,7 +4938,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0143"
+   "id": "CH-0183"
   },
   {
    "nome": "José Geraldo Pereira",
@@ -3807,7 +4964,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0144"
+   "id": "CH-0184"
   },
   {
    "nome": "Jose Gonçalves de Arruda",
@@ -3833,7 +4990,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0145"
+   "id": "CH-0185"
   },
   {
    "nome": "José Leandro R. Martins",
@@ -3859,7 +5016,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0146"
+   "id": "CH-0186"
   },
   {
    "nome": "José Margarida da Silva",
@@ -3885,33 +5042,97 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0147"
+   "id": "CH-0187"
+  },
+  {
+   "nome": "Jose Porfirio de Araujo Filho",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Coordenador de projeto de extensão (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de extensão (2023): PROJETO ESPORTE E LAZER NA VILA APARECIDA: INCLUSÃO SOCIAL E CIDADANIA; Projeto de extensão (2023): “FUTEBÓIS” NO CONTEXTO DO ESPORTE EDUCACIONAL; Projeto de extensão (2024): “FUTEBÓIS” NO CONTEXTO DO ESPORTE EDUCACIONAL; Projeto de extensão (2025): “FUTEBÓIS” NO CONTEXTO DO ESPORTE EDUCACIONAL; Projeto de extensão (2026): “FUTEBÓIS” NO CONTEXTO DO ESPORTE EDUCACIONAL",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 37/2023",
+    "SUAP IFMG — Edital 232/2024",
+    "SUAP IFMG — Edital 751/2025",
+    "SUAP IFMG — Edital 555/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0188"
+  },
+  {
+   "nome": "Juliana Miranda Soares Campos",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Coordenador de projeto de pesquisa (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de pesquisa (2026): Levantamento do perfil e demandas educacionais dos Povos e Comunidades Tradicionais na RMBH e Região dos Inconfidentes; Projeto de pesquisa (2023): Na gira do tempo: saberes ancestrais como prática de educação patrimonial a partir do Kilombu Manzo Ngunzo Kaiango; Projeto de pesquisa (2023): Levantamento do perfil e demandas educacionais dos Povos e Comunidades Tradicionais na RMBH e Região dos Inconfidentes; Projeto de pesquisa (2024): Na gira do tempo: saberes ancestrais como prática de educação patrimonial a partir do Kilombu Manzo Ngunzo Kaiango …",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 715/2026",
+    "SUAP IFMG — Edital 69/2023",
+    "SUAP IFMG — Edital 31/2024",
+    "SUAP IFMG — Edital 187/2024",
+    "SUAP IFMG — Edital 186/2025",
+    "SUAP IFMG — Edital 690/2025",
+    "SUAP IFMG — Edital 8/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0189"
   },
   {
    "nome": "Juliano Gilliard Rodrigues Xavier",
    "instituicao": "IFMG",
    "unidade": "Campus Ouro Preto",
    "setores": [
-    "DPIPG"
+    "DPIPG",
+    "Projetos SUAP"
    ],
    "categoria": "Gestão de pesquisa e inovação",
    "cargo": "Técnico-administrativo — Seção de Pós-graduação",
    "titulacao": "",
-   "areas": "Seção de Pós-graduação",
+   "areas": "Seção de Pós-graduação; Projeto de pesquisa (2026): Análise da implantação de um Laboratório de Processos em uma instituição de ensino: estudo de campo e proposta de institucionalização da gestão por processos no IFMG - Campus Ouro Preto",
    "lattes": "",
    "programas": [],
    "fontes": [
-    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/equipe-da-dpipg"
+    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/equipe-da-dpipg",
+    "SUAP IFMG — Edital 715/2026"
    ],
+   "coleta": "2026-11-17",
    "afinidade_unidade": [
     "E2",
-    "X1"
+    "X1",
+    "P2"
    ],
    "eixos_declarados": [],
    "orienta_ic": "",
    "adesao": "A consultar",
-   "coleta": "2026-11-09",
-   "id": "CH-0148"
+   "id": "CH-0190"
   },
   {
    "nome": "Juliano Soares Amaral Dias",
@@ -3937,7 +5158,33 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0149"
+   "id": "CH-0191"
+  },
+  {
+   "nome": "Julio Cesar Rodrigues Fontenelle",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "GEALI - Grupo de Estudos sobre Ensino e Aprendizagem de Língua Portuguesa e Literatura (Lingüística, Letras e Artes; Lingüística)",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/8071682766732612"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0192"
   },
   {
    "nome": "Julio Cesar Silva Azevedo",
@@ -3962,7 +5209,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0150"
+   "id": "CH-0193"
   },
   {
    "nome": "Karine Araujo Ferreira",
@@ -3988,7 +5235,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0151"
+   "id": "CH-0194"
   },
   {
    "nome": "Karla Boaventura Pimenta Palmieri",
@@ -4014,7 +5261,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0152"
+   "id": "CH-0195"
   },
   {
    "nome": "Kátia Inácio da Silva",
@@ -4040,7 +5287,66 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0153"
+   "id": "CH-0196"
+  },
+  {
+   "nome": "Laís Maria de Oliveira",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "GEALI - Grupo de Estudos sobre Ensino e Aprendizagem de Língua Portuguesa e Literatura (Lingüística, Letras e Artes; Lingüística); Projeto de pesquisa (2026): Violência de gênero em Água de Barrela, de Eliane Alvez Cruz e Caminhando com os mortos, de Micheliny Verunschk; Projeto de pesquisa (2025): Violência de gênero em Água de Barrela, de Eliane Alvez Cruz e Caminhando com os mortos, de Micheliny Verunschk; Projeto de pesquisa (2025): Violência de gênero em Água de Barrela, de Eliana Alvez Cruz e Caminhando com os mortos, de Micheliny Verunschk …",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/8071682766732612",
+    "SUAP IFMG — Edital 715/2026",
+    "SUAP IFMG — Edital 186/2025",
+    "SUAP IFMG — Edital 690/2025",
+    "SUAP IFMG — Edital 8/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0197"
+  },
+  {
+   "nome": "Laura Fernanda Rodrigues da Rocha",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Coordenador de projeto de extensão (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de extensão (2023): Capoeira do IFMG: fortalecendo internamente para crescer; Projeto de extensão (2024): Capoeira do IFMG: fortalecendo internamente para crescer; Projeto de extensão (2025): Capoeira do/no IFMG - Campus Ouro Preto",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 37/2023",
+    "SUAP IFMG — Edital 232/2024",
+    "SUAP IFMG — Edital 751/2025"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0198"
   },
   {
    "nome": "Laura Maria e Silva Xavier",
@@ -4066,7 +5372,33 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0154"
+   "id": "CH-0199"
+  },
+  {
+   "nome": "Layla Julia Gomes Mattos",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Coordenador de projeto de pesquisa (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de pesquisa (2023): FORMAÇÃO DE PROFISSIONAIS DE APOIO PARA ALUNOS COM NECESSIDADES EDUCACIONAIS ESPECÍFICAS",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 38/2023"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0200"
   },
   {
    "nome": "Leandro Correa Paes Leme",
@@ -4092,7 +5424,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0155"
+   "id": "CH-0201"
   },
   {
    "nome": "Leandro Vinícius Alves Gurgel",
@@ -4120,7 +5452,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0156"
+   "id": "CH-0202"
   },
   {
    "nome": "Leonardo Barbosa Godefroid",
@@ -4148,7 +5480,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0157"
+   "id": "CH-0203"
   },
   {
    "nome": "Leonardo Brandão Nogueira",
@@ -4174,7 +5506,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0158"
+   "id": "CH-0204"
   },
   {
    "nome": "Leonardo Eustáquio da Silva Gonçalves",
@@ -4200,7 +5532,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0159"
+   "id": "CH-0205"
   },
   {
    "nome": "Leonardo Martins Graça",
@@ -4226,33 +5558,36 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0160"
+   "id": "CH-0206"
   },
   {
    "nome": "Leticia Terrone Pierre",
    "instituicao": "IFMG",
    "unidade": "Campus Ouro Preto",
    "setores": [
-    "DPIPG"
+    "DPIPG",
+    "Projetos SUAP"
    ],
-   "categoria": "Gestão de pesquisa e inovação",
+   "categoria": "Docente",
    "cargo": "Chefia — Seção de Pesquisa",
    "titulacao": "",
-   "areas": "Seção de Pesquisa",
+   "areas": "Seção de Pesquisa; Projeto de pesquisa (2026): Da agricultura familiar ao restaurante estudantil: inserção de Plantas Alimentícias Não Convencionais (PANC) na alimentação institucional do IFMG Campus Ouro Preto; Projeto de pesquisa (2026): Avaliação do conhecimento de estudantes e servidores sobre plantas alimentícias não convencionais (PANCs) em uma escola pública profissionalizante de Ouro Preto",
    "lattes": "",
    "programas": [],
    "fontes": [
-    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/equipe-da-dpipg"
+    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/equipe-da-dpipg",
+    "SUAP IFMG — Edital 715/2026"
    ],
+   "coleta": "2026-11-17",
    "afinidade_unidade": [
     "E2",
-    "X1"
+    "X1",
+    "P2"
    ],
    "eixos_declarados": [],
    "orienta_ic": "",
    "adesao": "A consultar",
-   "coleta": "2026-11-09",
-   "id": "CH-0161"
+   "id": "CH-0207"
   },
   {
    "nome": "Lia de Mendonça Porto",
@@ -4278,7 +5613,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0162"
+   "id": "CH-0208"
   },
   {
    "nome": "Lívia Cristina Pinto Dias",
@@ -4308,7 +5643,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0163"
+   "id": "CH-0209"
   },
   {
    "nome": "Lívia Echternacht Andrade",
@@ -4334,7 +5669,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0164"
+   "id": "CH-0210"
   },
   {
    "nome": "Luana Amaral Gurgel",
@@ -4360,7 +5695,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0165"
+   "id": "CH-0211"
   },
   {
    "nome": "Lucas Pereira Leão",
@@ -4386,7 +5721,40 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0166"
+   "id": "CH-0212"
+  },
+  {
+   "nome": "Luccas Ribeiro do Couto",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "Geota - Grupo de Pesquisa em Geografia e Temáticas Ambientais (Ciências Exatas e da Terra; Geociências); Projeto de pesquisa (2026): A produção do espaço e as transformações nas relações sociais e na natureza determinadas pela mineração em Ouro Preto - MG; Projeto de pesquisa (2023): Espaço Geociências: concepção e implantação de laboratórios físico, virtual e itinerante como lócus de pesquisa, ensino e extensão; Projeto de pesquisa (2023): Mineração e crescimento urbano em Antônio Pereira, Ouro Preto, MG …",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/3976160783519719",
+    "SUAP IFMG — Edital 715/2026",
+    "SUAP IFMG — Edital 62/2023",
+    "SUAP IFMG — Edital 69/2023",
+    "SUAP IFMG — Edital 187/2024",
+    "SUAP IFMG — Edital 186/2025",
+    "SUAP IFMG — Edital 690/2025"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0213"
   },
   {
    "nome": "Lúcia F. Cruz Mapa",
@@ -4412,7 +5780,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0167"
+   "id": "CH-0214"
   },
   {
    "nome": "Luciana Gomes Castanheira",
@@ -4438,7 +5806,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0168"
+   "id": "CH-0215"
   },
   {
    "nome": "Ludimilla Thaís Alves",
@@ -4464,7 +5832,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0169"
+   "id": "CH-0216"
   },
   {
    "nome": "Luis de Almeida Prado Bacellar",
@@ -4490,7 +5858,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0170"
+   "id": "CH-0217"
   },
   {
    "nome": "Luiz Cláudio do Sacramento",
@@ -4516,7 +5884,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0171"
+   "id": "CH-0218"
   },
   {
    "nome": "Luiz Fernandes Dutra",
@@ -4542,7 +5910,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0172"
+   "id": "CH-0219"
   },
   {
    "nome": "Luiz Gustavo de Oliveira Carneiro",
@@ -4568,7 +5936,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0173"
+   "id": "CH-0220"
   },
   {
    "nome": "Magno Silverio Campos",
@@ -4594,7 +5962,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0174"
+   "id": "CH-0221"
   },
   {
    "nome": "Marcela Lopes Zanon",
@@ -4620,7 +5988,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0175"
+   "id": "CH-0222"
   },
   {
    "nome": "Marcela Paula Grobério",
@@ -4646,7 +6014,36 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0176"
+   "id": "CH-0223"
+  },
+  {
+   "nome": "Marcella de Castro Campos Velten",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Coordenador de projeto de extensão (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de extensão (2023): OFICINAS DE VOLEIBOL; Projeto de extensão (2025): Xadrez Educativo; Projeto de extensão (2025): OFICINAS DE VOLEIBOL; Projeto de extensão (2026): Oficina de Voleibol",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 43/2023",
+    "SUAP IFMG — Edital 751/2025",
+    "SUAP IFMG — Edital 942/2025",
+    "SUAP IFMG — Edital 635/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0224"
   },
   {
    "nome": "Marcelo Gomes Speziali",
@@ -4674,7 +6071,33 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0177"
+   "id": "CH-0225"
+  },
+  {
+   "nome": "Marcelo Henrique Nogueira Diana",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Coordenador de projeto de extensão (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de extensão (2026): Memorabilia musical: encontros de história e música em Ouro Preto",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 478/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0226"
   },
   {
    "nome": "Marcílio Sousa da Rocha Freitas",
@@ -4700,7 +6123,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0178"
+   "id": "CH-0227"
   },
   {
    "nome": "Marcio do Socorro Garcia",
@@ -4726,7 +6149,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0179"
+   "id": "CH-0228"
   },
   {
    "nome": "Marco Antônio Alves Carneiro",
@@ -4752,7 +6175,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0180"
+   "id": "CH-0229"
   },
   {
    "nome": "Marco Antônio Leandro da Silva",
@@ -4778,7 +6201,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0181"
+   "id": "CH-0230"
   },
   {
    "nome": "Marco Paulo de Castro",
@@ -4804,7 +6227,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0182"
+   "id": "CH-0231"
   },
   {
    "nome": "Marcos Roberto Marcial",
@@ -4830,7 +6253,37 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0183"
+   "id": "CH-0232"
+  },
+  {
+   "nome": "Margaly Aparecida de Aguiar Vita",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Especialização",
+   "areas": "Grupo de Pesquisa Básica, Aplicada e Educacional em Ciências Biológicas (Ciências Biológicas; Biologia Geral); Projeto de pesquisa (2026): Avaliação do conhecimento de estudantes e servidores sobre plantas alimentícias não convencionais (PANCs) em uma escola pública profissionalizante de Ouro Preto; Projeto de pesquisa (2023): Uma proposta interdisciplinar para o estudo de Física e Biologia utilizando a Microscopia Ótica; Projeto de pesquisa (2025): A interdisciplinaridade no ensino médio: teoria ou prática?",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/7734451508324836",
+    "SUAP IFMG — Edital 715/2026",
+    "SUAP IFMG — Edital 38/2023",
+    "SUAP IFMG — Edital 186/2025"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0233"
   },
   {
    "nome": "Maria Aparecida de Souza",
@@ -4856,7 +6309,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0184"
+   "id": "CH-0234"
   },
   {
    "nome": "Maria Augusta Gonçalves Fujaco",
@@ -4882,7 +6335,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0185"
+   "id": "CH-0235"
   },
   {
    "nome": "Maria Cristina Teixeira Braga Messias",
@@ -4908,7 +6361,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0186"
+   "id": "CH-0236"
   },
   {
    "nome": "Maria Elvira Poleti Martucci",
@@ -4936,7 +6389,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0187"
+   "id": "CH-0237"
   },
   {
    "nome": "Maria Eugênia Silva de Souza",
@@ -4962,7 +6415,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0188"
+   "id": "CH-0238"
   },
   {
    "nome": "Maria Luiza Teófilo Gandini",
@@ -4988,7 +6441,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0189"
+   "id": "CH-0239"
   },
   {
    "nome": "Maria Rita Silvério Pires",
@@ -5014,7 +6467,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0190"
+   "id": "CH-0240"
   },
   {
    "nome": "Maria Silvia Carvalho Barbosa",
@@ -5040,7 +6493,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0191"
+   "id": "CH-0241"
   },
   {
    "nome": "Mariana C. Andrade Silva",
@@ -5066,7 +6519,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0192"
+   "id": "CH-0242"
   },
   {
    "nome": "Mariangela Garcia Praça Leite",
@@ -5092,7 +6545,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0193"
+   "id": "CH-0243"
   },
   {
    "nome": "Marina de Medeiros Machado",
@@ -5122,7 +6575,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0194"
+   "id": "CH-0244"
   },
   {
    "nome": "Mary Lucia da Silva Nogueira",
@@ -5148,7 +6601,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0195"
+   "id": "CH-0245"
   },
   {
    "nome": "Mateus de Souza Amaral",
@@ -5176,7 +6629,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0196"
+   "id": "CH-0246"
   },
   {
    "nome": "Mateus Pereira Lavorato",
@@ -5202,7 +6655,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0197"
+   "id": "CH-0247"
   },
   {
    "nome": "Matheus Josué de Souza Matos",
@@ -5230,7 +6683,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0198"
+   "id": "CH-0248"
   },
   {
    "nome": "Maurinice Daniela Rodrigues",
@@ -5256,7 +6709,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0199"
+   "id": "CH-0249"
   },
   {
    "nome": "Maximiliano de Souza Martins",
@@ -5282,7 +6735,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0200"
+   "id": "CH-0250"
   },
   {
    "nome": "Maximo Eleoterio Martins",
@@ -5308,7 +6761,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0201"
+   "id": "CH-0251"
   },
   {
    "nome": "Maykon Passos Cristiano",
@@ -5334,7 +6787,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0202"
+   "id": "CH-0252"
   },
   {
    "nome": "Miguel Arcanjo Gomes",
@@ -5360,7 +6813,35 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0203"
+   "id": "CH-0253"
+  },
+  {
+   "nome": "Miriam Conceicao de Souza Testasicca",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "Grupo de Pesquisa Básica, Aplicada e Educacional em Ciências Biológicas (Ciências Biológicas; Biologia Geral); Projeto de pesquisa (2023): Elaboração de uma sequência didática para o ensino de Botânica no Ensino Médio",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/7734451508324836",
+    "SUAP IFMG — Edital 38/2023"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0254"
   },
   {
    "nome": "Mônica Cristina Teixeira",
@@ -5388,7 +6869,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0204"
+   "id": "CH-0255"
   },
   {
    "nome": "Monica Pessoa Neves",
@@ -5414,7 +6895,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0205"
+   "id": "CH-0256"
   },
   {
    "nome": "Monique Rafaella Anunciação de Oliveira",
@@ -5440,7 +6921,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0206"
+   "id": "CH-0257"
   },
   {
    "nome": "Múcio André dos Santos Alves Mendes",
@@ -5471,7 +6952,39 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0207"
+   "id": "CH-0258"
+  },
+  {
+   "nome": "Natiele Rosa de Oliveira",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Participante de projeto de pesquisa (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de pesquisa (2026): Levantamento do perfil e demandas educacionais dos Povos e Comunidades Tradicionais na RMBH e Região dos Inconfidentes; Projeto de pesquisa (2023): Na gira do tempo: saberes ancestrais como prática de educação patrimonial a partir do Kilombu Manzo Ngunzo Kaiango; Projeto de pesquisa (2023): Levantamento do perfil e demandas educacionais dos Povos e Comunidades Tradicionais na RMBH e Região dos Inconfidentes; Projeto de pesquisa (2024): Na gira do tempo: saberes ancestrais como prática de educação patrimonial a partir do Kilombu Manzo Ngunzo Kaiango …",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 715/2026",
+    "SUAP IFMG — Edital 69/2023",
+    "SUAP IFMG — Edital 31/2024",
+    "SUAP IFMG — Edital 187/2024",
+    "SUAP IFMG — Edital 186/2025",
+    "SUAP IFMG — Edital 690/2025",
+    "SUAP IFMG — Edital 8/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0259"
   },
   {
    "nome": "Olímpia de Sousa Marta",
@@ -5497,7 +7010,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0208"
+   "id": "CH-0260"
   },
   {
    "nome": "Otávia Martins Silva Rodrigues",
@@ -5523,7 +7036,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0209"
+   "id": "CH-0261"
   },
   {
    "nome": "Patrícia de Abreu Moreira",
@@ -5549,7 +7062,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0210"
+   "id": "CH-0262"
   },
   {
    "nome": "Paula Stockler Barbosa",
@@ -5575,7 +7088,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0211"
+   "id": "CH-0263"
   },
   {
    "nome": "Paulo Anderson Santana Rocha",
@@ -5601,7 +7114,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0212"
+   "id": "CH-0264"
   },
   {
    "nome": "Paulo de Tarso Amorim Castro",
@@ -5627,7 +7140,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0213"
+   "id": "CH-0265"
   },
   {
    "nome": "Paulo Marcos de Barros Monteiro",
@@ -5653,7 +7166,33 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0214"
+   "id": "CH-0266"
+  },
+  {
+   "nome": "Paulo Ricardo Moura da Silva",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "GEALI - Grupo de Estudos sobre Ensino e Aprendizagem de Língua Portuguesa e Literatura (Lingüística, Letras e Artes; Lingüística)",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/8071682766732612"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0267"
   },
   {
    "nome": "Paulo Santos Assis",
@@ -5681,24 +7220,38 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0215"
+   "id": "CH-0268"
   },
   {
    "nome": "Pedro Luiz Teixeira de Camargo",
    "instituicao": "IFMG",
    "unidade": "Campus Ouro Preto",
    "setores": [
-    "Grupos de Pesquisa"
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
    ],
    "categoria": "Docente",
    "cargo": "Líder de grupo de pesquisa (CNPq)",
-   "titulacao": "",
-   "areas": "Grupo de Pesquisa em Ciências Ambientais, Econômicas e Sustentabilidade",
+   "titulacao": "Doutorado",
+   "areas": "Grupo de Pesquisa em Ciências Ambientais, Econômicas e Sustentabilidade (Ciências Exatas e da Terra; Geociências); Projeto de pesquisa (2026): UMA AVALIAÇÃO DO CONCEITO DE BIODIVERSIDADE SEGUNDO ALUNOS DA EJA DA REDE ESTADUAL DO MUNICÍPIO DE ITABIRITO - MINAS GERAIS; Projeto de pesquisa (2023): UMA AVALIAÇÃO DO CONCEITO DE BIODIVERSIDADE SEGUNDO ALUNOS DO ENSINO MÉDIO DA EJA DA REDE ESTADUAL DO MUNICÍPIO DE OURO PRETO - MINAS GERAIS; Projeto de pesquisa (2023): PROJETO DE CRIAÇÃO DO LABORATÓRIO DE GEOGRAFIA HUMANA E SUSTENTABILIDADE DO IFMG CAMPUS OURO PRETO …",
    "lattes": "",
    "programas": [],
    "fontes": [
-    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa"
+    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa",
+    "http://dgp.cnpq.br/dgp/espelhogrupo/8545658261409410",
+    "SUAP IFMG — Edital 715/2026",
+    "SUAP IFMG — Edital 38/2023",
+    "SUAP IFMG — Edital 62/2023",
+    "SUAP IFMG — Edital 69/2023",
+    "SUAP IFMG — Edital 187/2024",
+    "SUAP IFMG — Edital 186/2025",
+    "SUAP IFMG — Edital 926/2025",
+    "SUAP IFMG — Edital 8/2026",
+    "SUAP IFMG — Edital 6/2026",
+    "SUAP IFMG — Edital 330/2025",
+    "SUAP IFMG — Edital 521/2026"
    ],
+   "coleta": "2026-11-17",
    "afinidade_unidade": [
     "E2",
     "P2"
@@ -5706,8 +7259,35 @@
    "eixos_declarados": [],
    "orienta_ic": "",
    "adesao": "A consultar",
-   "coleta": "2026-11-09",
-   "id": "CH-0216"
+   "id": "CH-0269"
+  },
+  {
+   "nome": "Rafaela Kelsen Dias",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "GEALI - Grupo de Estudos sobre Ensino e Aprendizagem de Língua Portuguesa e Literatura (Lingüística, Letras e Artes; Lingüística); Projeto de pesquisa (2023): Ensino de leitura e formação continuada – aproximações científico-escolares em um curso de Especialização",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/8071682766732612",
+    "SUAP IFMG — Edital 69/2023"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0270"
   },
   {
    "nome": "Raimundo Santos Leite",
@@ -5733,7 +7313,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0217"
+   "id": "CH-0271"
   },
   {
    "nome": "Ranucy Campos Marçal da Cruz",
@@ -5744,13 +7324,15 @@
    ],
    "categoria": "Docente",
    "cargo": "Líder de grupo de pesquisa (CNPq)",
-   "titulacao": "",
-   "areas": "Grupo de Estudo e Pesquisa Pensando a Educação Física Escolar",
+   "titulacao": "Mestrado",
+   "areas": "Grupo de Estudo e Pesquisa Pensando a Educação Física Escolar (Ciências Humanas; Educação)",
    "lattes": "",
    "programas": [],
    "fontes": [
-    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa"
+    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa",
+    "http://dgp.cnpq.br/dgp/espelhogrupo/1503553488945374"
    ],
+   "coleta": "2026-11-17",
    "afinidade_unidade": [
     "E2",
     "P2"
@@ -5758,8 +7340,7 @@
    "eixos_declarados": [],
    "orienta_ic": "",
    "adesao": "A consultar",
-   "coleta": "2026-11-09",
-   "id": "CH-0218"
+   "id": "CH-0272"
   },
   {
    "nome": "Raoni Rocha Simoes",
@@ -5785,7 +7366,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0219"
+   "id": "CH-0273"
   },
   {
    "nome": "Raphael Hermano Santos Diniz",
@@ -5796,13 +7377,15 @@
    ],
    "categoria": "Docente",
    "cargo": "Líder de grupo de pesquisa (CNPq)",
-   "titulacao": "",
-   "areas": "Grupo de Pesquisa Básica, Aplicada e Educacional em Ciências Biológicas",
+   "titulacao": "Doutorado",
+   "areas": "Grupo de Pesquisa Básica, Aplicada e Educacional em Ciências Biológicas (Ciências Biológicas; Biologia Geral)",
    "lattes": "",
    "programas": [],
    "fontes": [
-    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa"
+    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa",
+    "http://dgp.cnpq.br/dgp/espelhogrupo/7734451508324836"
    ],
+   "coleta": "2026-11-17",
    "afinidade_unidade": [
     "E2",
     "P2"
@@ -5810,8 +7393,7 @@
    "eixos_declarados": [],
    "orienta_ic": "",
    "adesao": "A consultar",
-   "coleta": "2026-11-09",
-   "id": "CH-0220"
+   "id": "CH-0274"
   },
   {
    "nome": "Raquel Franco Cassino",
@@ -5837,7 +7419,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0221"
+   "id": "CH-0275"
   },
   {
    "nome": "Regiane de Sousa e Silva Ramalho",
@@ -5863,7 +7445,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0222"
+   "id": "CH-0276"
   },
   {
    "nome": "Regina Carla Lima Corrêa de Sousa",
@@ -5889,24 +7471,36 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0223"
+   "id": "CH-0277"
   },
   {
    "nome": "Régis Eduardo Martins",
    "instituicao": "IFMG",
    "unidade": "Campus Ouro Preto",
    "setores": [
-    "Grupos de Pesquisa"
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
    ],
    "categoria": "Docente",
    "cargo": "Líder de grupo de pesquisa (CNPq)",
-   "titulacao": "",
-   "areas": "Núcleo de Estudos em Novas Tecnologias Aplicadas à Preservação do Patrimônio Cultural",
+   "titulacao": "Doutorado",
+   "areas": "Núcleo de Estudos em Novas Tecnologias Aplicadas à Preservação do Patrimônio Cultural (Ciências Exatas e da Terra; Ciência da Computação); Projeto de pesquisa (2026): Análise Tipológica da Casa Corrente Luso-Brasileira em Ouro Preto; Projeto de pesquisa (2023): Análise Tipológica da Casa Corrente Luso-Brasileira na região de Ouro Preto; Projeto de pesquisa (2024): Análise Tipológica da Casa Corrente Luso-Brasileira em Ouro Preto; Projeto de pesquisa (2024): Análise Tipológica da Casa Corrente Luso-Brasileira na região de Ouro Preto …",
    "lattes": "",
    "programas": [],
    "fontes": [
-    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa"
+    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa",
+    "http://dgp.cnpq.br/dgp/espelhogrupo/6864021320356464",
+    "SUAP IFMG — Edital 715/2026",
+    "SUAP IFMG — Edital 69/2023",
+    "SUAP IFMG — Edital 31/2024",
+    "SUAP IFMG — Edital 187/2024",
+    "SUAP IFMG — Edital 186/2025",
+    "SUAP IFMG — Edital 690/2025",
+    "SUAP IFMG — Edital 8/2026",
+    "SUAP IFMG — Edital 330/2025",
+    "SUAP IFMG — Edital 478/2026"
    ],
+   "coleta": "2026-11-17",
    "afinidade_unidade": [
     "E2",
     "P2"
@@ -5914,8 +7508,7 @@
    "eixos_declarados": [],
    "orienta_ic": "",
    "adesao": "A consultar",
-   "coleta": "2026-11-09",
-   "id": "CH-0224"
+   "id": "CH-0278"
   },
   {
    "nome": "Renata A. Toledo Florêncio",
@@ -5941,7 +7534,33 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0225"
+   "id": "CH-0279"
+  },
+  {
+   "nome": "Renata Bastos Ferreira Antipoff",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "Grupo de Pesquisa Realidades da Educação Profissional e Tecnológica (Ciências Humanas; Educação)",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/3706874782317162"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0280"
   },
   {
    "nome": "Ricardo André Fiorotti Peixoto",
@@ -5972,7 +7591,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0226"
+   "id": "CH-0281"
   },
   {
    "nome": "Ricardo Augusto Scholz Cipriano",
@@ -5998,7 +7617,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0227"
+   "id": "CH-0282"
   },
   {
    "nome": "Ricardo Azoubel da Mota Silveira",
@@ -6024,7 +7643,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0228"
+   "id": "CH-0283"
   },
   {
    "nome": "Rita de Cássia Pedrosa Santos",
@@ -6050,7 +7669,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0229"
+   "id": "CH-0284"
   },
   {
    "nome": "Rita de Castro Engler",
@@ -6078,7 +7697,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0230"
+   "id": "CH-0285"
   },
   {
    "nome": "Roberta Kelly Barbosa",
@@ -6104,7 +7723,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0231"
+   "id": "CH-0286"
   },
   {
    "nome": "Robson Nunes Dal Col",
@@ -6130,7 +7749,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0232"
+   "id": "CH-0287"
   },
   {
    "nome": "Rodrigo Fernando Bianchi",
@@ -6158,7 +7777,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0233"
+   "id": "CH-0288"
   },
   {
    "nome": "Rodrigo Geraldo do Couto",
@@ -6184,7 +7803,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0234"
+   "id": "CH-0289"
   },
   {
    "nome": "Rodrigo Peluci de Figueiredo",
@@ -6210,7 +7829,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0235"
+   "id": "CH-0290"
   },
   {
    "nome": "Rodrigo Rangel Porcaro",
@@ -6238,7 +7857,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0236"
+   "id": "CH-0291"
   },
   {
    "nome": "Rodson de Abreu Marques",
@@ -6264,7 +7883,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0237"
+   "id": "CH-0292"
   },
   {
    "nome": "Rogério Gomes Alves",
@@ -6290,7 +7909,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0238"
+   "id": "CH-0293"
   },
   {
    "nome": "Rosa Malena Fernandes Lima",
@@ -6316,7 +7935,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0239"
+   "id": "CH-0294"
   },
   {
    "nome": "Rovadávia Aline de Jesus Ribas",
@@ -6342,7 +7961,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0240"
+   "id": "CH-0295"
   },
   {
    "nome": "Rubens Gonzaga Modesto",
@@ -6368,7 +7987,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0241"
+   "id": "CH-0296"
   },
   {
    "nome": "Sandra Aparecida Lima de Moura",
@@ -6398,7 +8017,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0242"
+   "id": "CH-0297"
   },
   {
    "nome": "Sávio Ribas",
@@ -6424,7 +8043,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0243"
+   "id": "CH-0298"
   },
   {
    "nome": "Sebastião Martins Xavier",
@@ -6450,7 +8069,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0244"
+   "id": "CH-0299"
   },
   {
    "nome": "Sereno Chaves de Carvalho Guerra",
@@ -6476,7 +8095,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0245"
+   "id": "CH-0300"
   },
   {
    "nome": "Sérgio Francisco de Aquino",
@@ -6504,7 +8123,33 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0246"
+   "id": "CH-0301"
+  },
+  {
+   "nome": "Sérgio Murilo da Silva",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa"
+   ],
+   "categoria": "Técnico-administrativo",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Graduação",
+   "areas": "Grupo de Pesquisa Realidades da Educação Profissional e Tecnológica (Ciências Humanas; Educação)",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/3706874782317162"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0302"
   },
   {
    "nome": "Sérvio Pontes Ribeiro",
@@ -6530,7 +8175,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0247"
+   "id": "CH-0303"
   },
   {
    "nome": "Sheila Alves de Almeida",
@@ -6556,7 +8201,33 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0248"
+   "id": "CH-0304"
+  },
+  {
+   "nome": "Shirlene Bemfica de Oliveira",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Coordenador de projeto de pesquisa (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de pesquisa (2023): CALIEMT: CORPUS DE APRENDIZES DA LÍNGUA INGLESA DO ENSINO MÉDIO TÉCNICO; Projeto de pesquisa (2023): PROGRAMA DE PESQUISAS NARRATIVAS: DAS MEMÓRIAS DA APRENDIZAGEM E DOS MUNDOS DO TRABALHO",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 38/2023"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0305"
   },
   {
    "nome": "Silvana de Queiroz Silva",
@@ -6584,24 +8255,30 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0249"
+   "id": "CH-0306"
   },
   {
    "nome": "Sílvia Grasiella Moreira Almeida",
    "instituicao": "IFMG",
    "unidade": "Campus Ouro Preto",
    "setores": [
-    "Grupos de Pesquisa"
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
    ],
    "categoria": "Docente",
    "cargo": "Líder de grupo de pesquisa (CNPq)",
-   "titulacao": "",
-   "areas": "Grupo de Pesquisa Inteligência Computacional Aplicada",
+   "titulacao": "Doutorado",
+   "areas": "Núcleo de Estudos em Novas Tecnologias Aplicadas à Preservação do Patrimônio Cultural (Ciências Exatas e da Terra; Ciência da Computação); Grupo de Pesquisa Inteligência Computacional Aplicada (Engenharias; Engenharia Elétrica); Projeto de pesquisa (2023): Elaboração de uma sequência didática para o ensino de Botânica no Ensino Médio; Projeto de pesquisa (2024): Desenvolvimento de dispositivo de alerta para deslizamento de terra - Ouro Preto em Alerta",
    "lattes": "",
    "programas": [],
    "fontes": [
-    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa"
+    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa",
+    "http://dgp.cnpq.br/dgp/espelhogrupo/6864021320356464",
+    "http://dgp.cnpq.br/dgp/espelhogrupo/1588841652943471",
+    "SUAP IFMG — Edital 38/2023",
+    "SUAP IFMG — Edital 187/2024"
    ],
+   "coleta": "2026-11-17",
    "afinidade_unidade": [
     "E2",
     "P2"
@@ -6609,8 +8286,7 @@
    "eixos_declarados": [],
    "orienta_ic": "",
    "adesao": "A consultar",
-   "coleta": "2026-11-09",
-   "id": "CH-0250"
+   "id": "CH-0307"
   },
   {
    "nome": "Silvia Nahas Ribeiro",
@@ -6636,7 +8312,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0251"
+   "id": "CH-0308"
   },
   {
    "nome": "Silvio Vaz Junior",
@@ -6664,7 +8340,33 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0252"
+   "id": "CH-0309"
+  },
+  {
+   "nome": "Solange Rodrigues",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "GEALI - Grupo de Estudos sobre Ensino e Aprendizagem de Língua Portuguesa e Literatura (Lingüística, Letras e Artes; Lingüística)",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/8071682766732612"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0310"
   },
   {
    "nome": "Sylvia L. Ferrarezi Reis",
@@ -6690,7 +8392,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0253"
+   "id": "CH-0311"
   },
   {
    "nome": "Taíse Matte Manhabosco",
@@ -6718,7 +8420,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0254"
+   "id": "CH-0312"
   },
   {
    "nome": "Tatiana Barreto dos Santos",
@@ -6744,7 +8446,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0255"
+   "id": "CH-0313"
   },
   {
    "nome": "Tays Torres Ribeiro das Chagas",
@@ -6770,7 +8472,36 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0256"
+   "id": "CH-0314"
+  },
+  {
+   "nome": "Thalita Macedo Araújo",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa",
+    "Projetos SUAP"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Doutorado",
+   "areas": "Grupo de Pesquisa Básica, Aplicada e Educacional em Ciências Biológicas (Ciências Biológicas; Biologia Geral); Projeto de pesquisa (2026): Da agricultura familiar ao restaurante estudantil: inserção de Plantas Alimentícias Não Convencionais (PANC) na alimentação institucional do IFMG Campus Ouro Preto; Projeto de pesquisa (2023): Elaboração de uma sequência didática para o ensino de Botânica no Ensino Médio",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/7734451508324836",
+    "SUAP IFMG — Edital 715/2026",
+    "SUAP IFMG — Edital 38/2023"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0315"
   },
   {
    "nome": "Thiago Cazati",
@@ -6798,7 +8529,33 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0257"
+   "id": "CH-0316"
+  },
+  {
+   "nome": "Thiago Milagres de Araujo",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Técnico-administrativo",
+   "cargo": "Participante de projeto de pesquisa (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de pesquisa (2026): Análise da implantação de um Laboratório de Processos em uma instituição de ensino: estudo de campo e proposta de institucionalização da gestão por processos no IFMG - Campus Ouro Preto",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 715/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0317"
   },
   {
    "nome": "Thiago Morais Pinto",
@@ -6824,7 +8581,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0258"
+   "id": "CH-0318"
   },
   {
    "nome": "Thiago Santos",
@@ -6850,7 +8607,33 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0259"
+   "id": "CH-0319"
+  },
+  {
+   "nome": "Tiago de Castro Hardy",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa"
+   ],
+   "categoria": "Docente",
+   "cargo": "Pesquisador(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Mestrado",
+   "areas": "Núcleo de Estudos em Novas Tecnologias Aplicadas à Preservação do Patrimônio Cultural (Ciências Exatas e da Terra; Ciência da Computação)",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/6864021320356464"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0320"
   },
   {
    "nome": "Valdeir Junior dos Santos",
@@ -6876,7 +8659,35 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0260"
+   "id": "CH-0321"
+  },
+  {
+   "nome": "Valerio Augusto Lopes Passos",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Projetos SUAP"
+   ],
+   "categoria": "Técnico-administrativo",
+   "cargo": "Coordenador de projeto de extensão (SUAP)",
+   "titulacao": "",
+   "areas": "Projeto de extensão (2024): Ponto de Cultura Timbalê 2024; Projeto de extensão (2025): Ponto de Cultura Timbalê; Projeto de extensão (2026): Ponto de Cultura Timbalê",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "SUAP IFMG — Edital 1/2024",
+    "SUAP IFMG — Edital 330/2025",
+    "SUAP IFMG — Edital 478/2026"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0322"
   },
   {
    "nome": "Vanderlei Julio da Silva",
@@ -6902,7 +8713,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0261"
+   "id": "CH-0323"
   },
   {
    "nome": "Vanessa Criscuolo Parreiras de Oliveira",
@@ -6928,7 +8739,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0262"
+   "id": "CH-0324"
   },
   {
    "nome": "Vania de Paula Rodrigues",
@@ -6954,33 +8765,37 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0263"
+   "id": "CH-0325"
   },
   {
    "nome": "Venúncia Emília Coelho",
    "instituicao": "IFMG",
    "unidade": "Campus Ouro Preto",
    "setores": [
-    "DPIPG"
+    "DPIPG",
+    "Projetos SUAP"
    ],
-   "categoria": "Gestão de pesquisa e inovação",
+   "categoria": "Docente",
    "cargo": "Direção — Diretoria de Pesquisa, Inovação e Pós-graduação",
    "titulacao": "",
-   "areas": "Diretoria de Pesquisa, Inovação e Pós-graduação",
+   "areas": "Diretoria de Pesquisa, Inovação e Pós-graduação; Projeto de pesquisa (2026): Análise da implantação de um Laboratório de Processos em uma instituição de ensino: estudo de campo e proposta de institucionalização da gestão por processos no IFMG - Campus Ouro Preto; Projeto de pesquisa (2023): Intervenções psicanalíticas em ambiente escolar",
    "lattes": "",
    "programas": [],
    "fontes": [
-    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/equipe-da-dpipg"
+    "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/equipe-da-dpipg",
+    "SUAP IFMG — Edital 715/2026",
+    "SUAP IFMG — Edital 38/2023"
    ],
+   "coleta": "2026-11-17",
    "afinidade_unidade": [
     "E2",
-    "X1"
+    "X1",
+    "P2"
    ],
    "eixos_declarados": [],
    "orienta_ic": "",
    "adesao": "A consultar",
-   "coleta": "2026-11-09",
-   "id": "CH-0264"
+   "id": "CH-0326"
   },
   {
    "nome": "Versiane Albis Leão",
@@ -7013,7 +8828,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0265"
+   "id": "CH-0327"
   },
   {
    "nome": "Victor de Andrade Alvarenga Oliveira",
@@ -7041,7 +8856,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0266"
+   "id": "CH-0328"
   },
   {
    "nome": "Vinícius Soares dos Reis",
@@ -7067,7 +8882,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0267"
+   "id": "CH-0329"
   },
   {
    "nome": "Vinícius V. P. de Almeida",
@@ -7093,7 +8908,33 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0268"
+   "id": "CH-0330"
+  },
+  {
+   "nome": "Viviane de Paula Silva",
+   "instituicao": "IFMG",
+   "unidade": "Campus Ouro Preto",
+   "setores": [
+    "Grupos de Pesquisa"
+   ],
+   "categoria": "Técnico-administrativo",
+   "cargo": "Técnico(a) de grupo de pesquisa (CNPq)",
+   "titulacao": "Especialização",
+   "areas": "Grupo de Pesquisa Inteligência Computacional Aplicada (Engenharias; Engenharia Elétrica)",
+   "lattes": "",
+   "programas": [],
+   "fontes": [
+    "http://dgp.cnpq.br/dgp/espelhogrupo/1588841652943471"
+   ],
+   "coleta": "2026-11-17",
+   "afinidade_unidade": [
+    "E2",
+    "P2"
+   ],
+   "eixos_declarados": [],
+   "orienta_ic": "",
+   "adesao": "A consultar",
+   "id": "CH-0331"
   },
   {
    "nome": "Viviane Renata Scalon",
@@ -7119,7 +8960,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0269"
+   "id": "CH-0332"
   },
   {
    "nome": "Vladmir Kronemberger Alves",
@@ -7145,7 +8986,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0270"
+   "id": "CH-0333"
   },
   {
    "nome": "Wanderson Costa e Silva",
@@ -7171,7 +9012,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0271"
+   "id": "CH-0334"
   },
   {
    "nome": "Wenderson Marques Ferreira",
@@ -7197,7 +9038,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0272"
+   "id": "CH-0335"
   },
   {
    "nome": "Wilson Neri do Espirito Santo",
@@ -7223,7 +9064,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0273"
+   "id": "CH-0336"
   },
   {
    "nome": "Ya Grossi Andrade",
@@ -7249,7 +9090,7 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0274"
+   "id": "CH-0337"
   },
   {
    "nome": "Yasmine Antonini Itabaiana",
@@ -7275,18 +9116,28 @@
    "orienta_ic": "",
    "adesao": "A consultar",
    "coleta": "2026-11-09",
-   "id": "CH-0275"
+   "id": "CH-0338"
   }
  ],
  "grupos": [
   {
    "nome": "Grupo de Pesquisas Interdisciplinares em Áreas Úmidas",
    "lideres": [
-    "Diego Oliveira"
+    "Diego Alves de Oliveira"
    ],
    "dgp": "http://dgp.cnpq.br/dgp/espelhogrupo/8603033363255265",
    "instituicao": "IFMG",
-   "fonte": "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa"
+   "fonte": "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa",
+   "area": "Ciências Exatas e da Terra; Geociências",
+   "situacao": "Certificado",
+   "linhas": [
+    "Análise biológica",
+    "Análise hidrogeomorfológica e gestão dos recursos hídricos",
+    "Dinâmica de geocoberturas superficiais e subsuperficiais",
+    "Paleoecologia e paleoclima",
+    "Sustentabilidade e educação ambiental"
+   ],
+   "coleta": "2026-11-17"
   },
   {
    "nome": "Geota - Grupo de Pesquisa em Geografia e Temáticas Ambientais",
@@ -7295,7 +9146,18 @@
    ],
    "dgp": "http://dgp.cnpq.br/dgp/espelhogrupo/3976160783519719",
    "instituicao": "IFMG",
-   "fonte": "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa"
+   "fonte": "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa",
+   "area": "Ciências Exatas e da Terra; Geociências",
+   "situacao": "Certificado",
+   "linhas": [
+    "Bacias hidrográficas: evolução de sistemas fluviais, avaliação e gestão da qualidade dos recursos hídricos continentais",
+    "Dinâmica climática, riscos ambientais e incêndios florestais em Minas Gerais",
+    "Ensino de Geografia e Geociências: dimensões metodológicas, produtos educacionais e relações etnico-raciais, gênero e diversidades.",
+    "Gênese e evolução do relevo em ambientes tropicais: estudo de formas, processos e dos condicionantes naturais e antrópicos",
+    "Química ambiental: avaliação dos níveis de contaminação do solo, do ar e da água.",
+    "Solos e interações pedogeomorfológicas: métodos, interescalaridades e contribuições ao estudo da paisagem"
+   ],
+   "coleta": "2026-11-17"
   },
   {
    "nome": "Grupo de Pesquisa Básica, Aplicada e Educacional em Ciências Biológicas",
@@ -7304,7 +9166,15 @@
    ],
    "dgp": "http://dgp.cnpq.br/dgp/espelhogrupo/7734451508324836",
    "instituicao": "IFMG",
-   "fonte": "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa"
+   "fonte": "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa",
+   "area": "Ciências Biológicas; Biologia Geral",
+   "situacao": "Certificado - Não-atualizado há mais de 12 meses",
+   "linhas": [
+    "Educação e Ensino-Aprendizagem de Ciência.",
+    "Microbiologia Aplicada à Saúde e Biotecnologia",
+    "Saúde e Educação"
+   ],
+   "coleta": "2026-11-17"
   },
   {
    "nome": "Grupo de Estudo e Pesquisa Pensando a Educação Física Escolar",
@@ -7313,7 +9183,17 @@
    ],
    "dgp": "http://dgp.cnpq.br/dgp/espelhogrupo/1503553488945374",
    "instituicao": "IFMG",
-   "fonte": "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa"
+   "fonte": "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa",
+   "area": "Ciências Humanas; Educação",
+   "situacao": "Em preenchimento",
+   "linhas": [
+    "Educação Física e relações étnico raciais, de gênero e sexualidades",
+    "Educação Física Escolar",
+    "Formação de professores/as",
+    "Inclusão e diferença na Escola e Educação Física",
+    "Lazer, Educação e Escola"
+   ],
+   "coleta": "2026-11-17"
   },
   {
    "nome": "GEALI - Grupo de Estudos sobre Ensino e Aprendizagem de Língua Portuguesa e Literatura",
@@ -7322,7 +9202,17 @@
    ],
    "dgp": "http://dgp.cnpq.br/dgp/espelhogrupo/8071682766732612",
    "instituicao": "IFMG",
-   "fonte": "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa"
+   "fonte": "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa",
+   "area": "Lingüística, Letras e Artes; Lingüística",
+   "situacao": "Certificado",
+   "linhas": [
+    "Educação e linguagem",
+    "Leitura e escrita",
+    "Linguagem, Mediações Digitais e Pedagogias Contracoloniais",
+    "Literatura e ensino",
+    "Língua e discurso"
+   ],
+   "coleta": "2026-11-17"
   },
   {
    "nome": "Análise e Modelagem de Dados Educacionais",
@@ -7331,7 +9221,15 @@
    ],
    "dgp": "http://dgp.cnpq.br/dgp/espelhogrupo/5482026993015857",
    "instituicao": "IFMG",
-   "fonte": "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa"
+   "fonte": "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa",
+   "area": "Ciências Humanas; Educação",
+   "situacao": "Certificado",
+   "linhas": [
+    "Avaliação, Psicometria e Medidas Educacionais",
+    "Dados, Sociedade e Educação",
+    "Educação Estatística e Alfabetização em Dados"
+   ],
+   "coleta": "2026-11-17"
   },
   {
    "nome": "Núcleo de Estudos em Novas Tecnologias Aplicadas à Preservação do Patrimônio Cultural",
@@ -7340,7 +9238,21 @@
    ],
    "dgp": "http://dgp.cnpq.br/dgp/espelhogrupo/6864021320356464",
    "instituicao": "IFMG",
-   "fonte": "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa"
+   "fonte": "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa",
+   "area": "Ciências Exatas e da Terra; Ciência da Computação",
+   "situacao": "Em preenchimento",
+   "linhas": [
+    "Arte e Arquitetura Luso-Brasileira",
+    "Conservação Preventiva",
+    "Conservação-Restauração de Elementos Integrados",
+    "Diagnóstico do Estado de Conservação",
+    "Ensaios Não-Destrutivos (END)",
+    "Iconografia e Simbologia",
+    "Inteligência Artificial Aplicada ao Patrimônio Cultural",
+    "Mapeamento e Documentação dos Sistemas Construtivos Tradicionais",
+    "Técnicas de Levantamento para Bens Culturais"
+   ],
+   "coleta": "2026-11-17"
   },
   {
    "nome": "Grupo de Pesquisa em Ciências Ambientais, Econômicas e Sustentabilidade",
@@ -7349,7 +9261,18 @@
    ],
    "dgp": "http://dgp.cnpq.br/dgp/espelhogrupo/8545658261409410",
    "instituicao": "IFMG",
-   "fonte": "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa"
+   "fonte": "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa",
+   "area": "Ciências Exatas e da Terra; Geociências",
+   "situacao": "Em preenchimento",
+   "linhas": [
+    "Bioecologia de Insetos",
+    "Economias Agrária e dos Recursos Naturais",
+    "Educação Ambiental",
+    "Estudos Urbano-Regionais e Culturais",
+    "Geociências Agrárias e Ambientais",
+    "Soluções de engenharia de baixo custo"
+   ],
+   "coleta": "2026-11-17"
   },
   {
    "nome": "Grupo de Pesquisa Realidades da Educação Profissional e Tecnológica",
@@ -7358,7 +9281,16 @@
    ],
    "dgp": "http://dgp.cnpq.br/dgp/espelhogrupo/3706874782317162",
    "instituicao": "IFMG",
-   "fonte": "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa"
+   "fonte": "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa",
+   "area": "Ciências Humanas; Educação",
+   "situacao": "Certificado",
+   "linhas": [
+    "Currículo e processos avaliativos na EPT",
+    "Ingresso, permanência e êxito na EPT",
+    "Processos de ensino-aprendizagem e metodologias na EPT",
+    "Tecnologias digitais nas práticas pedagógicas da EPT"
+   ],
+   "coleta": "2026-11-17"
   },
   {
    "nome": "Grupo de Pesquisa Inteligência Computacional Aplicada",
@@ -7368,7 +9300,21 @@
    ],
    "dgp": "http://dgp.cnpq.br/dgp/espelhogrupo/1588841652943471",
    "instituicao": "IFMG",
-   "fonte": "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa"
+   "fonte": "https://ouropreto.ifmg.edu.br/ouropreto/pesquisa/grupos-de-pesquisa",
+   "area": "Engenharias; Engenharia Elétrica",
+   "situacao": "Certificado",
+   "linhas": [
+    "Modelagem, Otimização e Simulação Computacional de Sistemas e Processos",
+    "Sistemas Inteligentes",
+    "A Inteligência Artificial e o Mercado de Trabalho",
+    "Análise e Desenvolvimento de Material Didático Digital",
+    "Deep Learning (Aprendizado Profundo)",
+    "Internet das Coisas - IoT",
+    "Robótica",
+    "Sistemas de visão computacional",
+    "Tecnologia Assistiva"
+   ],
+   "coleta": "2026-11-17"
   }
  ]
 }

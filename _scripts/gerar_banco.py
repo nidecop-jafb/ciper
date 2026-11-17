@@ -20,6 +20,9 @@ RAIZ = Path(__file__).resolve().parent.parent
 FONTES = RAIZ / "_fontes"
 DADOS = RAIZ / "dados"
 COLETA = "2026-11-09"
+COLETA_IFMG = "2026-11-17"  # espelhos CNPq dos grupos + SUAP (PRE-site-ciper-capital-humano-ifmg-op)
+SUAP_LOTACAO = FONTES / "suap_lotacao_op.csv"   # nome;nome_fonte;categoria  (so servidores lotados no Campus Ouro Preto)
+SUAP_PROJETOS = FONTES / "suap_projetos_op.csv"  # nome;papel;projeto;tipo;edital;ano  (so servidores; nunca alunos)
 
 PARTICULAS = {"de", "da", "do", "das", "dos", "e", "del", "von", "van", "di", "du"}
 MAI = "A-ZÁÉÍÓÚÂÊÔÃÕÇÀÜ"
@@ -47,6 +50,7 @@ AFINIDADE = {
     "DECAT": ["P6", "P1"], "DECIV": ["X4", "P5"], "DEPRO": ["X1", "P1"],
     "DEBIO": ["P3", "P5"], "DEMAT": ["E1", "E4"], "REDEMAT": ["P4", "P1"],
     "ProAmb": ["P3", "P5"], "DPIPG": ["E2", "X1"], "Grupos de Pesquisa": ["E2", "P2"],
+    "Projetos SUAP": ["E2", "P2"],
     "CIPER": ["E2"],
 }
 
@@ -116,6 +120,40 @@ def anexar(bruto, recs):
         e = EMAIL_RE.search(re.sub(r"<[^>]+>", " ", seg))
         r["_email"] = e.group(0).lower() if e else ""
     return recs
+
+
+def _celulas(tr):
+    return [re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", c))).replace("\xa0", " ").strip()
+            for c in re.findall(r"<td[^>]*>(.*?)</td>", tr, re.S)]
+
+
+def cnpq_grupo(arq):
+    """Espelho de grupo do Diretorio do CNPq: situacao, area, linhas, pesquisadores e tecnicos.
+    Estudantes e egressos sao ignorados (LGPD). Cada tabela vale so na 1.a ocorrencia (as seguintes sao de egressos)."""
+    s = re.sub(r"<script.*?</script>", "", arq.read_text(encoding="utf-8", errors="ignore"), flags=re.S)
+    txt = [l.strip() for l in html.unescape(re.sub(r"<[^>]+>", "\n", s)).replace("\xa0", " ").split("\n") if l.strip()]
+
+    def depois(rot):
+        return next((txt[i + 1] for i, l in enumerate(txt) if l == rot and i + 1 < len(txt)), "")
+
+    tabelas = {}
+    for t in re.findall(r"<table[^>]*>(.*?)</table>", s, re.S):
+        ths = [re.sub(r"<[^>]+>", "", h).strip() for h in re.findall(r"<th[^>]*>(.*?)</th>", t, re.S)]
+        if ths and ths[0] not in tabelas:
+            cel = [_celulas(tr) for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", t, re.S)]
+            tabelas[ths[0]] = [c for c in cel if c and c[0] and not c[0].startswith("Nenhum")]
+    return dict(id=re.search(r"(\d{16})", arq.name).group(1), situacao=depois("Situação do grupo:"),
+                area=depois("Área predominante:"),
+                linhas=[c[0] for c in tabelas.get("Nome da linha de pesquisa", [])],
+                pesquisadores=[(c[0], c[1] if len(c) > 1 else "") for c in tabelas.get("Pesquisadores", [])],
+                tecnicos=[(c[0], c[1] if len(c) > 1 else "") for c in tabelas.get("Técnicos", [])])
+
+
+def ler_csv(arq):
+    if not arq.exists():
+        return []
+    with arq.open(encoding="utf-8-sig", newline="") as fh:
+        return [r for r in csv.DictReader(fh, delimiter=";") if r.get("nome")]
 
 
 def por_marcador(arq, marcadores, inst, unidade, setor, categoria, fonte, maiusculas=False):
@@ -299,6 +337,50 @@ def coletar():
             R.append(reg(l, "IFMG", "Campus Ouro Preto", "DPIPG", "Gestão de pesquisa e inovação", f,
                          cargo=(papel + " — " + secao).strip(" —"), areas=secao))
 
+    # --- IFMG-OP / membros dos grupos (espelhos CNPq) e projetos do SUAP, coleta de 17/11/2026.
+    # So entra quem o SUAP confirma como servidor lotado no Campus Ouro Preto (externos e estudantes ficam fora).
+    lot = {}
+    for r in ler_csv(SUAP_LOTACAO):  # vale o nome do SUAP e o da fonte (CNPq pode trazer o nome de solteira)
+        lot[chave(r["nome"])] = lot[chave(r.get("nome_fonte") or r["nome"])] = r
+
+    def ifmg(nome, setor, fonte, **kw):
+        s = lot.get(chave(nome))
+        if not s:
+            return None
+        r = reg(s.get("nome_fonte") or nome, "IFMG", "Campus Ouro Preto", setor, s["categoria"], fonte, **kw)
+        r["coleta"] = COLETA_IFMG
+        R.append(r)
+        return r
+
+    for g in grupos:
+        m = re.search(r"(\d{16})", g["dgp"])
+        arq = FONTES / "cnpq" / f"grupo_{m.group(1)}.html" if m else None
+        if not arq or not arq.exists():
+            continue
+        c = cnpq_grupo(arq)
+        g.update(area=c["area"], situacao=c["situacao"], linhas=c["linhas"], coleta=COLETA_IFMG)
+        # a pagina do campus abrevia o lider ("Diego Oliveira"); o espelho traz o nome completo
+        for n in g["lideres"]:
+            kn = chave(n).split()
+            cheio = next((p for p, _ in c["pesquisadores"]
+                          if chave(p).split()[0] == kn[0] and chave(p).split()[-1] == kn[-1]), None)
+            if cheio and chave(cheio) != chave(n):
+                for r in R:
+                    if r["_raw"] == n and r["setores"] == ["Grupos de Pesquisa"]:
+                        r["nome"] = cheio
+                g["lideres"] = [cheio if x == n else x for x in g["lideres"]]
+        lideres = {chave(n) for n in g["lideres"]}
+        for nome, tit in c["pesquisadores"] + c["tecnicos"]:
+            papel = "Líder" if chave(nome) in lideres else ("Técnico(a)" if (nome, tit) in c["tecnicos"] else "Pesquisador(a)")
+            ifmg(nome, "Grupos de Pesquisa", g["dgp"], titulacao=tit,
+                 cargo=f"{papel} de grupo de pesquisa (CNPq)", areas=f"{g['nome']} ({c['area']})")
+    for p in ler_csv(SUAP_PROJETOS):
+        tipo = p.get("tipo") or "Pesquisa"
+        m = re.search(r"(\d+)\s*/\s*(\d{4})", p["edital"])  # rotulo curto: o cartao imprime a fonte sem quebra
+        ifmg(p["nome"], "Projetos SUAP", f"SUAP IFMG — Edital {int(m.group(1))}/{m.group(2)}" if m else "SUAP IFMG",
+             cargo=f"{p['papel']} de projeto de {tipo.lower()} (SUAP)",
+             areas=f"Projeto de {tipo.lower()} ({p['ano']}): {p['projeto']}")
+
     # --- Organizacao tecnica do CIPER (Dossie Executivo, fev/2026; nomes completos nos creditos do video)
     f = "Dossiê Executivo do CIPER (fev. 2026)"
     R.append(reg("Ernani Carlos de Araujo", "UFOP", "Escola de Minas", "CIPER", "Docente", f, cargo="Organização técnica do CIPER"))
@@ -337,8 +419,13 @@ def fundir(R):
                     b[campo].append(v)
         for campo in ("cargo", "titulacao", "lattes"):
             b[campo] = b[campo] or r[campo]
+        if r.get("coleta", "") > b.get("coleta", ""):
+            b["coleta"] = r["coleta"]
         if r["areas"] and r["areas"] not in b["areas"]:
-            b["areas"] = (b["areas"] + "; " + r["areas"]).strip("; ")
+            if b["instituicao"] == "IFMG":  # "Grupo X" + "Grupo X (area)" -> fica so a forma mais completa
+                b["areas"] = "; ".join([x for x in b["areas"].split("; ") if x and x not in r["areas"]] + [r["areas"]])
+            else:
+                b["areas"] = (b["areas"] + "; " + r["areas"]).strip("; ")
         if r["categoria"] == "Docente":
             b["categoria"] = "Docente"
     out = list(banco.values())
@@ -384,7 +471,9 @@ def main():
             for campo in ("lattes", "areas"):
                 if a.get(campo):
                     b[campo] = a[campo]
-        b["coleta"] = COLETA
+        b["coleta"] = b.get("coleta") or COLETA
+        if b["instituicao"] == "IFMG" and len(b["areas"]) > 600:  # muitos projetos: corta no ultimo item inteiro
+            b["areas"] = b["areas"][:600].rsplit("; ", 1)[0] + " …"
     for a in ad.values():  # quem se cadastrou e nao estava nas fontes publicas
         banco.append(dict(nome=a["nome"], instituicao=a.get("instituicao", ""), unidade=a.get("unidade", ""),
                           setores=[a.get("setor", "")], categoria=a.get("categoria", ""), cargo=a.get("cargo", ""),
@@ -396,7 +485,7 @@ def main():
     for i, b in enumerate(banco, 1):
         b["id"] = f"CH-{i:04d}"
 
-    saida = dict(gerado_em=COLETA, total=len(banco), pessoas=banco, grupos=grupos)
+    saida = dict(gerado_em=max(b["coleta"] for b in banco), total=len(banco), pessoas=banco, grupos=grupos)
     DADOS.mkdir(exist_ok=True)
     (DADOS / "capital-humano.json").write_text(json.dumps(saida, ensure_ascii=False, indent=1), encoding="utf-8")
     (DADOS / "capital-humano.js").write_text("window.CIPER_BANCO = " + json.dumps(saida, ensure_ascii=False) + ";\n", encoding="utf-8")
