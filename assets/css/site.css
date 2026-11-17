@@ -214,7 +214,7 @@ input:focus,select:focus,textarea:focus,button:focus-visible,a:focus-visible{out
 .barras{display:grid;gap:7px;margin-top:10px}
 .barra{display:grid;grid-template-columns:110px 1fr 40px;gap:10px;align-items:center;font-size:.88rem}
 .barra i{display:block;height:12px;border-radius:6px;background:var(--verde2)}
-.form fieldset{border:1px solid var(--linha);border-radius:14px;padding:18px 20px;margin:0 0 18px;background:var(--branco)}
+.form fieldset{border:1px solid var(--linha);border-radius:14px;padding:18px 20px;margin:0 0 18px;background:var(--branco);min-width:0}
 .form legend{font:700 1rem var(--serifa);color:var(--verde);padding:0 8px}
 .form .campo{margin-bottom:12px}
 .form label{font-weight:600;font-size:.92rem;display:block;margin-bottom:4px}
