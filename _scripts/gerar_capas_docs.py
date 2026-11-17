@@ -1,4 +1,5 @@
-"""Gera as fotos das capas dos cartoes de "Para ler com calma" (index.html#documentos).
+"""Gera as fotos das capas dos cartoes de "Para ler com calma" (index.html#documentos)
+e de "Para ouvir com calma" (index.html#audios: foto-a03 e foto-a04).
 
 A capa e montada em HTML/CSS (foto em cima, faixa verde com numero e titulo curto);
 este script so recorta as fotos: assets/docs/foto-NN.webp, 208 x 168 px (exibidas a 104 x 84).
@@ -23,6 +24,10 @@ FOTOS = {
     "04": ("ciper-vista-aerea.jpg", 0.5, 0.5),
     "05": ("fachada-perspectiva.jpg", 0.5, 0.5),
     "06": ("serra-amanhecer.jpg", 0.5, 0.5),
+    # "Para ouvir com calma" (index.html#audios): os audios 1 e 2 reusam foto-01 e foto-02
+    # (PRE-site-ciper-audios-2026-11-16)
+    "a03": ("igreja-sao-francisco.jpg", 0.5, 0.5),
+    "a04": ("claraboia-jardim.jpg", 0.5, 0.5),
 }
 
 
