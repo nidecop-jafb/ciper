@@ -12,7 +12,7 @@
     P6: 'Energias solar/eólica e transmissão disruptiva (sem fio)',
     P7: 'Comunicação interatômica e pesquisa de fronteira',
     E1: 'Capacitação técnica e científica (talentos STEM)',
-    E2: 'Integração acadêmica UFOP/IFMG/FG',
+    E2: 'Integração acadêmica entre os campi do IFMG e instituições conveniadas',
     E3: 'Espaços de experimentação e laboratórios interativos',
     E4: 'Capacitação de professores e alunos da Educação Básica',
     X1: 'Diversificação econômica e incubação de startups',
@@ -126,7 +126,7 @@
   $('a-nome').addEventListener('change', function () {
     var p = P.filter(function (x) { return x.nome === $('a-nome').value; })[0];
     if (!p) return;
-    if (['UFOP', 'IFMG'].indexOf(p.instituicao) >= 0) $('a-inst').value = p.instituicao;
+    if (['IFMG', 'Colaborador'].indexOf(p.instituicao) >= 0) $('a-inst').value = p.instituicao;
     $('a-setor').value = p.setores.join(' / ');
     if (p.lattes) $('a-lattes').value = p.lattes;
     if (p.areas && !$('a-areas').value) $('a-areas').value = p.areas;

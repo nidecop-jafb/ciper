@@ -36,7 +36,7 @@
   <div class="wrap">
     <p class="olho" style="color:var(--ouro2)">Capital humano e massa crítica</p>
     <h1>Banco de Capital Humano de Ouro Preto</h1>
-    <p class="lead" style="color:#CFE0D6">Professores, pesquisadores e servidores técnicos que já estão em Ouro Preto e podem compor a massa crítica do CIPER. Busque por nome, área, unidade ou eixo de atuação.</p>
+    <p class="lead" style="color:#CFE0D6">Professores, pesquisadores e servidores técnicos do IFMG Campus Ouro Preto, com pesquisadores colaboradores, que podem compor a massa crítica do CIPER. Busque por nome, área, unidade ou eixo de atuação.</p>
     <div class="numeros" id="contadores"></div>
   </div>
 </div>
@@ -86,7 +86,7 @@
     <p class="olho">Transparência</p>
     <h2>Como este banco foi montado</h2>
     <div class="grade g3" style="margin-top:22px">
-      <div class="cartao"><h3>1 · Dados públicos</h3><p>A primeira carga vem das páginas oficiais das unidades da UFOP e do IFMG-OP (listas de docentes, técnicos, programas de pós-graduação e grupos de pesquisa), coletadas em 9 de novembro de 2026. O IFMG-OP foi atualizado em 17 de novembro de 2026 com os membros servidores dos grupos de pesquisa (espelhos do Diretório do CNPq) e com os coordenadores e participantes servidores de projetos de pesquisa, inovação e extensão do campus registrados no SUAP (2023–2026). Cada registro traz a fonte de origem.</p></div>
+      <div class="cartao"><h3>1 · Dados públicos</h3><p>A primeira carga vem das páginas oficiais do IFMG-OP (listas de servidores e grupos de pesquisa), coletadas em 9 de novembro de 2026, e foi atualizada em 17 de novembro de 2026 com os membros servidores dos grupos de pesquisa (espelhos do Diretório do CNPq) e com os coordenadores e participantes servidores de projetos de pesquisa, inovação e extensão do campus registrados no SUAP (2023–2026). Cada registro traz a fonte de origem.</p></div>
       <div class="cartao"><h3>2 · Adesão de cada pessoa</h3><p>Eixos de atuação (P1–P7, E1–E4, X1–X4), interesse em orientar iniciação científica e anuência ao Manual de Governança só entram quando a própria pessoa preenche o formulário — como prevê o Dossiê Executivo (item 4.2).</p></div>
       <div class="cartao"><h3>3 · O que não está aqui</h3><p>O banco não guarda e-mail, telefone nem dado pessoal além do que a instituição publica: o contato é feito pela página oficial. Quem quiser corrigir ou retirar o seu registro pode pedir à organização técnica.</p></div>
     </div>
@@ -95,14 +95,12 @@
       <table>
         <thead><tr><th>Instituição</th><th>Já no banco</th><th>A incluir</th></tr></thead>
         <tbody>
-          <tr><td><strong>UFOP</strong></td><td>Escola de Minas: DEMIN, DEGEO, DEAMB, DECAT, DECIV, DEPRO · ICEB: DEBIO, DEMAT · Pós-graduação: REDEMAT, ProAmb</td><td>DEMET, DEMEC, DEARQ, DEFIS, DEQUI, DECOM, Escola de Farmácia e demais programas de pós-graduação</td></tr>
           <tr><td><strong>IFMG</strong></td><td>Campus Ouro Preto: servidores dos 10 grupos de pesquisa (CNPq), coordenadores e participantes de projetos de pesquisa, inovação e extensão (SUAP, 2023–2026) e equipe da Diretoria de Pesquisa, Inovação e Pós-graduação — atualizado em 17/11/2026</td><td>Docentes e técnicos sem grupo nem projeto registrado (a lista oficial do corpo docente segue fora do ar)</td></tr>
-          <tr><td><strong>Fundação Gorceix</strong></td><td>—</td><td>Pesquisadores e equipe técnica indicados pela Fundação</td></tr>
-          <tr><td><strong>PMOP</strong></td><td>—</td><td>Equipes de educação, meio ambiente, turismo e desenvolvimento econômico indicadas pela Prefeitura</td></tr>
+          <tr><td><strong>Pesquisadores colaboradores</strong></td><td>Organização técnica do CIPER</td><td>Pesquisadores de outras instituições que aderirem pela ficha abaixo</td></tr>
         </tbody>
       </table>
     </div>
-    <p style="margin-top:14px"><a href="dados/capital-humano.csv" download>Baixar o banco completo (.csv)</a> · <a href="dados/capital-humano.json" download>.json</a></p>
+    <p style="margin-top:14px"><a href="dados/capital-humano.csv" download>Baixar o banco (.csv)</a> · <a href="dados/capital-humano.json" download>.json</a></p>
   </div>
 </section>
 
@@ -118,7 +116,7 @@
           <div class="campo"><label for="a-cit">Nome em citações bibliográficas</label><input type="text" id="a-cit"></div>
           <div class="campo"><label for="a-lattes">Endereço do Currículo Lattes</label><input type="url" id="a-lattes" placeholder="https://lattes.cnpq.br/…"></div>
           <div class="campo"><label for="a-inst">Vínculo institucional</label>
-            <select id="a-inst" required><option value="">Escolha…</option><option>UFOP</option><option>IFMG</option><option>Fundação Gorceix</option><option>PMOP</option><option>Colaborador externo</option><option>Parceiro estratégico</option></select></div>
+            <select id="a-inst" required><option value="">Escolha…</option><option>IFMG</option><option value="Colaborador">Pesquisador(a) colaborador(a) de outra instituição</option></select></div>
           <div class="campo"><label for="a-setor">Departamento, setor ou laboratório</label><input type="text" id="a-setor"></div>
           <div class="campo"><label for="a-cat">Categoria</label>
             <select id="a-cat"><option>Docente</option><option>Pesquisador</option><option>Técnico-administrativo</option><option>Gestão</option></select></div>
@@ -143,7 +141,7 @@
 
 <footer>
   <div class="wrap">
-    <p><strong style="color:#fff">CIPER — Centro de Inovação e Pesquisa de Energias Renováveis de Ouro Preto.</strong> IFMG · UFOP · Fundação Gorceix · PMOP.</p>
+    <p><strong style="color:#fff">CIPER — Centro de Inovação e Pesquisa de Energias Renováveis de Ouro Preto.</strong> IFMG · Campus Ouro Preto.</p>
     <!-- REDES:INICIO (gerado por _scripts/gerar_redes.py) -->
     <p class="redes-rodape"><span>Siga o CIPER:</span> <a href="https://www.instagram.com/ciper.ouropreto/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>Instagram</a> <a href="https://www.facebook.com/ciper.ouropreto" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8z"/></svg>Facebook</a> <a href="redes.html"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M3 3h8v8H3zm2 2v4h4V5zm8-2h8v8h-8zm2 2v4h4V5zM3 13h8v8H3zm2 2v4h4v-4zm8-2h2v2h-2zm2 2h2v2h-2zm2-2h4v2h-4zm-4 4h2v4h-2zm4 0h4v4h-2v-2h-2z"/></svg>QR Codes e ícones</a></p>
     <!-- REDES:FIM -->

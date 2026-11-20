@@ -451,6 +451,25 @@ def adesoes():
     return out
 
 
+COMPLETO = FONTES / "completo"
+# Pesquisadores colaboradores de outras instituicoes que aparecem no banco publico (Regimento v2, art. 9o).
+COLABORADORES = {"ernani carlos de araujo": "Professor da UFOP, pesquisador colaborador"}
+COLS = ["id", "nome", "instituicao", "unidade", "setores", "categoria", "cargo", "titulacao", "areas",
+        "lattes", "programas", "afinidade_unidade", "eixos_declarados", "orienta_ic", "adesao", "fontes", "coleta"]
+
+
+def escrever(pasta, banco, grupos):
+    saida = dict(gerado_em=max(b["coleta"] for b in banco), total=len(banco), pessoas=banco, grupos=grupos)
+    pasta.mkdir(parents=True, exist_ok=True)
+    (pasta / "capital-humano.json").write_text(json.dumps(saida, ensure_ascii=False, indent=1), encoding="utf-8")
+    (pasta / "capital-humano.js").write_text("window.CIPER_BANCO = " + json.dumps(saida, ensure_ascii=False) + ";\n", encoding="utf-8")
+    with (pasta / "capital-humano.csv").open("w", encoding="utf-8-sig", newline="") as fh:
+        w = csv.writer(fh, delimiter=";")
+        w.writerow(COLS)
+        for b in banco:
+            w.writerow([" | ".join(b[c]) if isinstance(b[c], list) else b[c] for c in COLS])
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     R, grupos = coletar()
@@ -485,19 +504,20 @@ def main():
     for i, b in enumerate(banco, 1):
         b["id"] = f"CH-{i:04d}"
 
-    saida = dict(gerado_em=max(b["coleta"] for b in banco), total=len(banco), pessoas=banco, grupos=grupos)
-    DADOS.mkdir(exist_ok=True)
-    (DADOS / "capital-humano.json").write_text(json.dumps(saida, ensure_ascii=False, indent=1), encoding="utf-8")
-    (DADOS / "capital-humano.js").write_text("window.CIPER_BANCO = " + json.dumps(saida, ensure_ascii=False) + ";\n", encoding="utf-8")
-    cols = ["id", "nome", "instituicao", "unidade", "setores", "categoria", "cargo", "titulacao", "areas",
-            "lattes", "programas", "afinidade_unidade", "eixos_declarados", "orienta_ic", "adesao", "fontes", "coleta"]
-    with (DADOS / "capital-humano.csv").open("w", encoding="utf-8-sig", newline="") as fh:
-        w = csv.writer(fh, delimiter=";")
-        w.writerow(cols)
-        for b in banco:
-            w.writerow([" | ".join(b[c]) if isinstance(b[c], list) else b[c] for c in cols])
+    # Banco COMPLETO (todas as instituicoes): fica em _fontes/completo/, fora do git e do site,
+    # para a etapa dos convenios (PRE-site-ciper-so-ifmg-ocultar-parcerias-2026-11-20).
+    escrever(COMPLETO, banco, grupos)
+    # Banco PUBLICO: ate o CONSUP o CIPER e so do IFMG; entram o IFMG e os pesquisadores colaboradores.
+    publico = []
+    for b in banco:
+        if b["instituicao"] == "IFMG":
+            publico.append(b)
+        elif chave(b["nome"]) in COLABORADORES:
+            publico.append(dict(b, instituicao="Colaborador", unidade=COLABORADORES[chave(b["nome"])]))
+    escrever(DADOS, publico, grupos)
 
-    print("TOTAL", len(banco))
+    print("TOTAL (completo)", len(banco), "| publico", len(publico))
+    print("publico por instituicao", dict(Counter(b["instituicao"] for b in publico)))
     print("por instituicao", dict(Counter(b["instituicao"] for b in banco)))
     print("por categoria", dict(Counter(b["categoria"] for b in banco)))
     print("por setor", dict(Counter(s for b in banco for s in b["setores"])))

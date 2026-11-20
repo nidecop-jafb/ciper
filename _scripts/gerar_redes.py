@@ -490,7 +490,7 @@ def pagina_redes(itens) -> str:
 
 <footer>
   <div class="wrap">
-    <p><strong style="color:#fff">CIPER — Centro de Inovação e Pesquisa de Energias Renováveis de Ouro Preto.</strong> IFMG · UFOP · Fundação Gorceix · PMOP.</p>
+    <p><strong style="color:#fff">CIPER — Centro de Inovação e Pesquisa de Energias Renováveis de Ouro Preto.</strong> IFMG · Campus Ouro Preto.</p>
     {bloco_rodape()}
     <p class="fim">Projeto em fase de concepção e estruturação. Instagram e Facebook são marcas de seus donos; os selos nos ícones só indicam a rede.</p>
     <p class="nota-ia">{NOTA_IA}</p>
@@ -549,7 +549,7 @@ footer{{margin-top:5mm;font-size:8pt;color:#4A5852}}
 </style></head><body>
 <header><img src="data:image/png;base64,{logo}" alt="CIPER"><h1>Siga o CIPER</h1></header>
 {chr(10).join(linhas)}
-<footer>CIPER — Centro de Inovação e Pesquisa de Energias Renováveis de Ouro Preto · IFMG · UFOP · Fundação Gorceix · PMOP · nidecop-jafb.github.io/ciper/redes.html<br>
+<footer>CIPER — Centro de Inovação e Pesquisa de Energias Renováveis de Ouro Preto · IFMG · Campus Ouro Preto · nidecop-jafb.github.io/ciper/redes.html<br>
 {re.sub('<[^>]+>', '', NOTA_IA)}</footer>
 </body></html>
 """
