@@ -4,15 +4,15 @@ Site estático (abre com dois cliques em `index.html`; não precisa de servidor)
 
 | Arquivo | O que é |
 |---|---|
-| `index.html` | Página institucional: o CIPER, o CIPER no IFMG (`#ifmg`), pilares, projeto, vídeo, governança, roteiro, reuniões e documentos (só a marca). A seção `#audios` saiu em 20/11/2026 e volta com o áudio novo |
+| `index.html` | Página institucional: o CIPER, o CIPER no IFMG (`#ifmg`), pilares, projeto, vídeo, governança, roteiro, reuniões, documentos (só a marca) e áudios (`#audios`: 2 áudios do roteiro "O CIPER no IFMG", desde 20/11/2026) |
 | `capital-humano.html` | Banco de Capital Humano: busca, filtros, exportação e ficha de adesão |
 | `investimentos.html` | Apresentação para investidores (4 blocos + resumo em inglês) e falas sobre investimento com link no tempo (fonte: `PRJ-001G-CIPER-Mensagens/`) |
 | `redes.html` | Redes do CIPER: QR Codes (Instagram, Facebook, Site), botões e guia para pôr o ícone na tela do celular. **Gerada** por `_scripts/gerar_redes.py` |
 | `r/{rede}/` | Mini-página instalável de cada rede (manifesto, service worker sem cache, ícones com selo). O ícone instalado abre o perfil. **Gerada** |
 | `assets/qr/` | QR Codes em PNG (1024 px) e SVG. Apontam para o site (`r/{rede}/`), não para a rede: o impresso continua valendo se a rede mudar |
 | `documentos/` | Vazia desde 20/11/2026: os 6 PDFs citavam os parceiros e foram para `G:\CIPER\xx\2026-11-20_site-so-ifmg\documentos\` (também na tag `v-alianca-2026-11`) |
-| `audios/` | Vazia desde 20/11/2026: os 4 áudios citavam a aliança e foram para `G:\CIPER\xx\2026-11-20_site-so-ifmg\audios\` (também na tag). O áudio novo sai do roteiro `PRJ-001A-CIPER-Concepção/roteiros-audio/CIPER-Roteiro-Audio-CIPER-no-IFMG-v1.md`, com `_scripts/gerar_audios.py` (ffmpeg) |
-| `assets/docs/` | Fotos das capas dos cartões de documentos e de áudios (`foto-01…06.webp`; `foto-a03` e `foto-a04` para os áudios 3 e 4; os áudios 1 e 2 reusam `foto-01` e `foto-02`; recortes de `assets/img/`). A capa é montada em HTML/CSS (foto + faixa verde com número e título curto). **Geradas** por `_scripts/gerar_capas_docs.py` (a lista `FOTOS` diz qual foto vai em cada cartão) |
+| `audios/` | 2 áudios gerados no NotebookLM a partir do roteiro `PRJ-001A-CIPER-Concepção/roteiros-audio/CIPER-Roteiro-Audio-CIPER-no-IFMG-v1.md` (originais `PRJ-001A-CIPER-13-…` e `-14-…` em PRJ-001A; transcrições conferidas em `PRJ-001A/_transcricoes/`). **Gerados** por `_scripts/gerar_audios.py` (ffmpeg: AAC mono 64 kbps, `+faststart`). Os 4 áudios de 16/11 citavam a aliança e foram para `G:\CIPER\xx\2026-11-20_site-so-ifmg\audios\` (também na tag) |
+| `assets/docs/` | Fotos das capas dos cartões de documentos e de áudios (`foto-01…06.webp`; `foto-a05` e `foto-a06` para os áudios 1 e 2; `foto-a03` e `foto-a04` são dos áudios de 16/11, fora do ar; recortes de `assets/img/`). A capa é montada em HTML/CSS (foto + faixa verde com número e título curto). **Geradas** por `_scripts/gerar_capas_docs.py` (a lista `FOTOS` diz qual foto vai em cada cartão) |
 | `assets/icone/` | Ícone oficial (SVG, PNG 32–1024, `favicon.ico`) e logotipos horizontais |
 | `assets/video/` | Vídeo institucional em 720p (PT e EN) |
 | `dados/capital-humano.csv` | O banco **público** em planilha: só IFMG e pesquisadores colaboradores (lista `COLABORADORES` em `gerar_banco.py`). O banco completo (UFOP etc.) sai em `_fontes/completo/`, fora do git e do site |

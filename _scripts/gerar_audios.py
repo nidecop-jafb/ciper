@@ -14,15 +14,13 @@ ORIGEM = SITE.parent / "PRJ-001A-CIPER-Concepção"
 SAIDA = SITE / "audios"
 
 # arquivo publicado -> original em PRJ-001A
+# Os 4 audios de 16/11 citavam a alianca e sairam em 20/11 (tag v-alianca-2026-11).
+# Briefing dos atuais (2, do roteiro "O CIPER no IFMG"): PRE-site-ciper-audio-ciper-no-ifmg-2026-11-20
 AUDIOS = {
-    "01-CIPER-Ouro-Preto-Historia-e-Futuro.m4a":
-        "PRJ-001A-CIPER-06-Ouro Preto-Onde a história se entrelaça com o futuro-v1.m4a",
-    "02-CIPER-Simbiose-Parque-Tecnologico-FG.m4a":
-        "PRJ-001A-CIPER-08-CIPER-Simbiose com o Parque Tecnológico da FG-A1.m4a",
-    "03-CIPER-Ouro-Preto-Minerio-por-Conhecimento-Renovavel.m4a":
-        "PRJ-001A-CIPER-09-Ouro_Preto_troca_minério_por_conhecimento_renovável-v1.m4a",
-    "04-CIPER-Ouro-Preto-Tecnologia-Verde.m4a":
-        "PRJ-001A-CIPER-11-Ouro_Preto_se_reinventa_com_tecnologia_verde.m4a",
+    "01-Ouro-Preto-mineracao-energias-renovaveis.m4a":
+        "PRJ-001A-CIPER-13-Ouro-Preto-da-mineracao-as-energias-renovaveis-v1.m4a",
+    "02-CIPER-energias-renovaveis-Ouro-Preto.m4a":
+        "PRJ-001A-CIPER-14-CIPER-e-energias-renovaveis-em-Ouro-Preto-v1.m4a",
 }
 
 
